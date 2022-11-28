@@ -2,7 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
-import java.util.Objects;
 
 /*
 华华通过以下方式进行分析，首先将比赛每个球的胜负列成一张表，然后分别计算在 11 分制和 21 分制下，双方的比赛结果（截至记录末尾）。
@@ -70,21 +69,21 @@ class GameResult{
 public class PingPong {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        String string = "";
+        StringBuilder string = new StringBuilder();
         while (true){
             String line = bufferedReader.readLine();
             if (line==null){
                 break;
             }else {
                 if (line.indexOf('E')!=-1){
-                    string += line.substring(0,line.indexOf('E'));
+                    string.append(line.substring(0, line.indexOf('E')));
                     break;
                 }else {
-                    string += line;
+                    string.append(line);
                 }
             }
         }
-        GameResult gameResult = new GameResult(string);
+        GameResult gameResult = new GameResult(string.toString());
         gameResult.transforTo11();
         System.out.print('\n');
         gameResult.transforTo21();

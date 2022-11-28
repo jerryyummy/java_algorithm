@@ -1,9 +1,7 @@
-package algorithm;
 import java.util.Scanner;
 public class Dijkstra__Single_Source_Shortest_Path {
 
     private static int N;//节点
-    private static int M;//边
     private static int max;//最大权重，表示无法联通
     private static int[] visit;//找到一个顶点的最短距离，就把它设为1，默认为0
     private static int[][] distance;//保存图中个边的值，两点间无边则设为max
@@ -58,7 +56,8 @@ public class Dijkstra__Single_Source_Shortest_Path {
         Scanner input = new Scanner(System.in);
         System.out.print("请输入节点个数N，边总数M： ");
         N = input.nextInt();
-        M = input.nextInt();
+        //边
+        int m = input.nextInt();
         max = 10000;
         minDistance = new int[N+1];
         distance = new int [N+1][N+1];
@@ -74,11 +73,11 @@ public class Dijkstra__Single_Source_Shortest_Path {
                 }
             }
             minDistance[i] = max;//默认源点到其他点最短距离为无穷
-            path[i] = new String("1-->" + i);
+            path[i] = "1-->" + i;
         }
 
-        System.out.println("请输入" + M +"条数据x，y，z（表示x点到y点的距离为z）：");
-        for(int i = 1; i <= M; i++) {
+        System.out.println("请输入" + m +"条数据x，y，z（表示x点到y点的距离为z）：");
+        for(int i = 1; i <= m; i++) {
             int start = input.nextInt();
             int end = input.nextInt();
             int length = input.nextInt();
