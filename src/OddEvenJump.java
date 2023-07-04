@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -24,14 +25,19 @@ public class OddEvenJump {
         higher[n - 1] = lower[n - 1] = true;//初始化最后一个位置，无论怎么都已经到达末尾
         TreeMap<Integer, Integer> map = new TreeMap<>();
         map.put(A[n - 1], n - 1);
-        for (int i = n - 2; i >= 0; --i) {
-            Map.Entry<Integer, Integer> hi = map.ceilingEntry(A[i]);//找到符合条件最小的树
+        for (int i = n - 2; i >= 0; --i) {//逆推
+            Map.Entry<Integer, Integer> hi = map.ceilingEntry(A[i]);//找到符合条件最小的数
             Map.Entry<Integer, Integer> lo = map.floorEntry(A[i]);//找到符合条件最大的数
             if (hi != null) higher[i] = lower[hi.getValue()];
-            if (lo != null) lower[i] = higher[lo.getValue()];
-            if (higher[i]) res++;
+            if (lo != null) lower[i] = higher[lo.getValue()];//检测下一次jump能否到达末尾,可以交换两句顺序
+            if (higher[i]) res++;//higher数组记录的从该数字开始第一次跳，lower则是第二次
             map.put(A[i], i);
         }
         return res;
+    }
+
+
+    public static void main(String[] args) {
+        OddEvenJump oddEvenJump = new OddEvenJump();
     }
 }
