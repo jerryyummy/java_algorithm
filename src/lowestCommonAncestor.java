@@ -1,11 +1,5 @@
 import java.util.*;
 
-class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-}
 /*
 Given the root of a binary tree and an array of TreeNode objects nodes, return the lowest common ancestor (LCA) of all the nodes in nodes.
 All the nodes will exist in the tree, and all values of the tree's nodes are unique.
