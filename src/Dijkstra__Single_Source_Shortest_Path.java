@@ -1,90 +1,1 @@
-import java.util.Scanner;
-public class Dijkstra__Single_Source_Shortest_Path {
-
-    private static int N;//½Úµã
-    private static int max;//×î´óÈ¨ÖØ£¬±íÊ¾ÎŞ·¨ÁªÍ¨
-    private static int[] visit;//ÕÒµ½Ò»¸ö¶¥µãµÄ×î¶Ì¾àÀë£¬¾Í°ÑËüÉèÎª1£¬Ä¬ÈÏÎª0
-    private static int[][] distance;//±£´æÍ¼ÖĞ¸ö±ßµÄÖµ£¬Á½µã¼äÎŞ±ßÔòÉèÎªmax
-    private static int[] minDistance;//±£´æÔ´µãµ½ÆäËû¸÷µãµÄ×î¶Ì¾àÀë
-    private static String[] path;//±£´æÊä³öÂ·¾¶
-    private static int sum=0;//¼ÇÂ¼×ÜµÄÂ·¾¶³¤¶È
-
-    public static void Dijkstra() {
-        visit[1] = 1;//Ô´µãµ½×Ô¼º³¤¶ÈÎª0
-        minDistance[1] = 0;
-
-        //Ñ­»·Ã¿¸ö½Úµã
-        for(int l = 2; l <= N; l++) {
-            int Dtemp = max;//×î¶ÌÂ·¾¶³õÊ¼»¯Îª×î´óÖµ
-            int k = -1;//k±íÊ¾µ±Ç°¼ÆËã×î¶ÌÂ·¾¶µÄ½Úµã
-
-            //ÔÚÒ»¸öÑ­»·ÄÚÕÒµ½¾àÀë×î¶ÌµÄµã
-            for(int i = 2; i <= N; i++) {
-                if(visit[i] == 0 && distance[1][i] < Dtemp) {
-                    Dtemp = distance[1][i];//¸üĞÂÈ¨ÖØ³¤¶È
-                    k = i;
-                }
-            }
-            visit[k] = 1;//ÕÒµ½ÓµÓĞ×î¶ÌÂ·¾¶µÄ±ß
-            minDistance[k] = Dtemp;//±£´æ¶ÔÓ¦×î¶Ì¾àÀë
-
-            //ÒÔÉÏÒ»¸öÑ­»·ÕÒµ½µÄµãÎªÖĞĞÄ£¬Í¨¹ıÒ»¸öÑ­»·¸üĞÂËùÓĞvisit[i]Îª0µÄµãµ½Ô´µãµÄ¾àÀë
-            for(int i = 2; i <= N; i++) {
-                if(visit[i] == 0 && (distance[1][k] + distance[k][i]) < distance[1][i]) {//Èç¹ûÔ´µãµ½¸Ãµã×î¶Ì¾àÀë»¹Ã»ÓĞÕÒµ½¶øÇÒÕÒµ½¸ÃµãµÄ¸ü¶ÌÂ·¾¶
-                    distance[1][i] = distance[1][k] + distance[k][i];
-                    path[i] = path[k] + "-->" + i;//¸üĞÂÂ·¾¶ÉÏµÄ½Úµã
-                }
-            }
-        }
-
-        //Êä³öÂ·¾¶
-        for(int i=1;i<=N;i++) {
-            System.out.println("´Ó"+1+"³ö·¢µ½"+i+"µÄ×î¶ÌÂ·¾¶Îª£º"+path[i]);
-        }
-        System.out.println("=====================================");
-        for(int i = 1; i <= N; i++) {
-            System.out.println("´Ó1³ö·¢µ½" + i + "µãµÄ×î¶Ì¾àÀëÎª£º" + minDistance[i]);
-        }
-        for (int i = 1; i <= N; i++) {
-            sum+=minDistance[i];
-        }
-        System.out.println(sum);
-    }
-    public static void main(String[] args) {
-        // TODO Auto-generated method stub
-
-        Scanner input = new Scanner(System.in);
-        System.out.print("ÇëÊäÈë½Úµã¸öÊıN£¬±ß×ÜÊıM£º ");
-        N = input.nextInt();
-        //±ß
-        int m = input.nextInt();
-        max = 10000;
-        minDistance = new int[N+1];
-        distance = new int [N+1][N+1];
-        visit = new int[N+1];
-        path=new String[N+1];
-
-        for(int i = 1; i <= N; i++) {
-            for(int j = 1; j <= N; j++) {
-                if(i == j) {
-                    distance[i][j] = 0;
-                }else {
-                    distance[i][j] = max;//Ä¬ÈÏ±ßµÄÈ¨ÖØÎªÎŞÇî
-                }
-            }
-            minDistance[i] = max;//Ä¬ÈÏÔ´µãµ½ÆäËûµã×î¶Ì¾àÀëÎªÎŞÇî
-            path[i] = "1-->" + i;
-        }
-
-        System.out.println("ÇëÊäÈë" + m +"ÌõÊı¾İx£¬y£¬z£¨±íÊ¾xµãµ½yµãµÄ¾àÀëÎªz£©£º");
-        for(int i = 1; i <= m; i++) {
-            int start = input.nextInt();
-            int end = input.nextInt();
-            int length = input.nextInt();
-            distance[start][end] = length;
-        }
-        input.close();
-
-        Dijkstra();
-    }
-}
+import java.util.Scanner;public class Dijkstra__Single_Source_Shortest_Path {    private static int N;//???    private static int max;//????????????????    private static int[] visit;//?????????????????????????1??????0    private static int[][] distance;//??????Ğ¸????????????????????max    private static int[] minDistance;//??????????????????????    private static String[] path;//???????Â·??    private static int sum=0;//??????Â·??????    public static void Dijkstra() {        visit[1] = 1;//???????????0        minDistance[1] = 0;        //?????????        for(int l = 2; l <= N; l++) {            int Dtemp = max;//ç›®å‰æœ€å°è·ç¦»            int k = -1;//kè¡¨ç¤ºå½“å‰è¿™ä¸€è½®æ·»åŠ èŠ‚ç‚¹çš„index            //æ‰¾åˆ°å‰©ä½™æ²¡è®¿é—®èŠ‚ç‚¹è·ç¦»æœ€å°çš„            for(int i = 2; i <= N; i++) {                if(visit[i] == 0 && distance[1][i] < Dtemp) {                    Dtemp = distance[1][i];//??????????                    k = i;                }            }            visit[k] = 1;//?????????Â·?????            minDistance[k] = Dtemp;//????????????            //???????????????????????????????????????visit[i]?0??????????            for(int i = 2; i <= N; i++) {                if(visit[i] == 0 && (distance[1][k] + distance[k][i]) < distance[1][i]) {//é€šè¿‡æœ¬è½®çš„èŠ‚ç‚¹æ›´æ–°å…¶ä»–èŠ‚ç‚¹ä¸æºèŠ‚ç‚¹çš„è·ç¦»                    distance[1][i] = distance[1][k] + distance[k][i];                    path[i] = path[k] + "-->" + i;//????Â·???????                }            }        }        //???Â·??        for(int i=1;i<=N;i++) {            System.out.println("??"+1+"??????"+i+"?????Â·?????"+path[i]);        }        System.out.println("=====================================");        for(int i = 1; i <= N; i++) {            System.out.println("??1??????" + i + "????????????" + minDistance[i]);        }        for (int i = 1; i <= N; i++) {            sum+=minDistance[i];        }        System.out.println(sum);    }    public static void main(String[] args) {        // TODO Auto-generated method stub        Scanner input = new Scanner(System.in);        System.out.print("???????????N????????M?? ");        N = input.nextInt();        //??        int m = input.nextInt();        max = 10000;        minDistance = new int[N+1];        distance = new int [N+1][N+1];        visit = new int[N+1];        path=new String[N+1];        for(int i = 1; i <= N; i++) {            for(int j = 1; j <= N; j++) {                if(i == j) {                    distance[i][j] = 0;                }else {                    distance[i][j] = max;//?????????????                }            }            minDistance[i] = max;//???????????????????????            path[i] = "1-->" + i;        }        System.out.println("??????" + m +"??????x??y??z?????x??y???????z????");        for(int i = 1; i <= m; i++) {            int start = input.nextInt();            int end = input.nextInt();            int length = input.nextInt();            distance[start][end] = length;        }        input.close();        Dijkstra();    }}

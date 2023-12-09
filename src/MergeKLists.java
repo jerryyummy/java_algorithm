@@ -14,7 +14,7 @@ public class MergeKLists {
         return merge(lists,0,lists.length-1);
     }
 
-    private ListNode merge(ListNode[] lists,int left,int right){
+        private ListNode merge(ListNode[] lists,int left,int right){
         if (left == right){
             return lists[left];
         }
