@@ -23,24 +23,24 @@ Constraints:
  */
 public class CacheSize {
     public static List<Integer> getCacheSize(List<List<Integer>> data, List<Integer> queries) {
-        List<Map.Entry<Integer, Integer>> a = new ArrayList<>();
-        Map<Integer, Integer> mp = new HashMap<>();
-        List<Integer> ans = new ArrayList<>(Collections.nCopies(queries.size(), 0));
-        for (List<Integer> d : data) {
+        List<Map.Entry<Integer, Integer>> a = new ArrayList<>();//存储时间点和该时间点上的增减量（开始时间增加，结束时间减少）
+        Map<Integer, Integer> mp = new HashMap<>();//存储每个查询时间点的缓存大小
+        List<Integer> ans = new ArrayList<>(Collections.nCopies(queries.size(), 0));//初始化为与查询列表等长且填充为0的列表，用于存储最终的答案
+        for (List<Integer> d : data) {//对每个时间段的开始和结束时间创建条目，结束时间是开始时间加上持续时间后的下一个时间点（因为结束时间是不包含在内的）
             a.add(new AbstractMap.SimpleEntry<>(d.get(0), 1));
             a.add(new AbstractMap.SimpleEntry<>(d.get(0) + d.get(1) + 1, -1));
         }
-        a.sort(Map.Entry.comparingByKey());
+        a.sort(Map.Entry.comparingByKey());//对 a 进行排序，以确保时间点按升序排列
         List<Integer> b = new ArrayList<>(queries);
         Collections.sort(b);
         int j = 0;
         int tmp = 0;
         for (int q : b) {
             while (j < a.size() && a.get(j).getKey() <= q) {
-                tmp += a.get(j).getValue();
+                tmp += a.get(j).getValue();//遍历列表 a，累加到当前查询时间点的所有增减量
                 j++;
             }
-            mp.put(q, tmp);
+            mp.put(q, tmp);//将累加结果存储在 mp 中，键为查询时间点，值为累加的结果
         }
         for (int i = 0; i < queries.size(); i++) {
             ans.set(i, mp.get(queries.get(i)));
