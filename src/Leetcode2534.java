@@ -18,7 +18,7 @@ Note that:
 Only one person can cross the door at each second.
 A person may arrive at the door and wait without entering or exiting to follow the mentioned rules.
  */
-public class timeTaken {
+public class Leetcode2534 {
     public int[] timeTaken(int[] arrival, int[] state) {
         Queue<Integer>[] arr = new Queue[2];
         arr[0] = new ArrayDeque<>();
