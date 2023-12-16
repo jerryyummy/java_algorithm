@@ -6,7 +6,7 @@ public class UnionFind {
         this.parent = new int[n];
         this.rank = new int[n];
         for (int i = 0; i < n; i++) {
-            parent[n] = n;
+            parent[i] = i;
         }
     }
 
@@ -17,9 +17,9 @@ public class UnionFind {
         return parent[n];
     }
 
-    public void union(int a, int b){
+    public boolean union(int a, int b){
         if(parent[a]==parent[b]){
-            return;
+            return false;
         }else if (rank[a]>rank[b]){
             parent[b] = a;
         }else if (rank[a]<rank[b]){
@@ -28,5 +28,6 @@ public class UnionFind {
             parent[b] = a;
             rank[a]+=1;
         }
+        return true;
     }
 }
