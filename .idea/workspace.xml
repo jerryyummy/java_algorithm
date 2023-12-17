@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="12/14 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode261.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode323.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="12/15 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode2967.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +74,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.16308594",
     "project.structure.side.proportion": "0.17172897",
     "settings.editor.selected.configurable": "project.scopes",
@@ -90,7 +86,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Leetcode2967">
     <configuration name="Leetcode261" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode261" />
       <module name="java_algorithm" />
@@ -98,8 +94,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Leetcode2967" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode2967" />
+      <module name="java_algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode2967" />
         <item itemvalue="Application.Leetcode261" />
       </list>
     </recent_temporary>
@@ -209,7 +213,9 @@
       <workItem from="1702451060043" duration="3515000" />
       <workItem from="1702488207352" duration="3919000" />
       <workItem from="1702595931055" duration="6515000" />
-      <workItem from="1702707291151" duration="5860000" />
+      <workItem from="1702707291151" duration="5885000" />
+      <workItem from="1702753895292" duration="238000" />
+      <workItem from="1702779354632" duration="1547000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -303,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702604300582</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="12/15 by yummy">
+      <option name="closed" value="true" />
+      <created>1702713683919</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702713683919</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +333,8 @@
     <MESSAGE value="12/12 by yummy" />
     <MESSAGE value="12/13 by yummy" />
     <MESSAGE value="12/14 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="12/14 by yummy" />
+    <MESSAGE value="12/15 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="12/15 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
