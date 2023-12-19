@@ -8,7 +8,7 @@ Extending the definition of LCA on Wikipedia: "The lowest common ancestor of n n
 has every pi as a descendant (where we allow a node to be a descendant of itself) for every valid i". A descendant of a node x is a node y that
 is on the path from node x to some leaf node.
  */
-public class lowestCommonAncestor {
+public class Leetcode1676 {
     Set<Integer> set = new HashSet<>();
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode[] nodes) {
         for (TreeNode node: nodes){
