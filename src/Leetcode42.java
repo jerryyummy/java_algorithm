@@ -1,10 +1,8 @@
-import java.util.Stack;
-
 /*
 Given n non-negative integers representing an elevation map where the width of each bar is 1,
 compute how much water it can trap after raining.
  */
-public class Trap {
+public class Leetcode42 {
 
     public int trap(int[] height) {
         int res = 0, mx = 0, n = height.length;
