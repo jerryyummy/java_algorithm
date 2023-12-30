@@ -20,6 +20,4 @@ public class Leetcode42 {
         return res;
     }
 
-
-
 }
