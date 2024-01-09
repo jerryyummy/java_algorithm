@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/6/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode2390.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode456.java" afterDir="false" />
+    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/7/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode189.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +86,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode2967">
+  <component name="RunManager" selected="Application.Leetcode189">
+    <configuration name="Leetcode189" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode189" />
+      <module name="java_algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Leetcode261" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode261" />
       <module name="java_algorithm" />
@@ -104,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode189" />
         <item itemvalue="Application.Leetcode2967" />
         <item itemvalue="Application.Leetcode261" />
       </list>
@@ -234,7 +241,8 @@
       <workItem from="1704168218378" duration="11443000" />
       <workItem from="1704482571769" duration="7217000" />
       <workItem from="1704570935554" duration="8219000" />
-      <workItem from="1704694684251" duration="3739000" />
+      <workItem from="1704694684251" duration="3851000" />
+      <workItem from="1704780270783" duration="3740000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -544,14 +552,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704610212604</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="1/7/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1704700636674</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1704700636675</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="August 17" />
     <MESSAGE value="November 28" />
     <MESSAGE value="some updates" />
     <MESSAGE value="12/9 by yummy" />
@@ -576,7 +591,8 @@
     <MESSAGE value="1/1/2024 by yummy" />
     <MESSAGE value="1/5/2024 by yummy" />
     <MESSAGE value="1/6/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="1/6/2024 by yummy" />
+    <MESSAGE value="1/7/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="1/7/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -585,6 +601,11 @@
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode189.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -592,16 +613,5 @@
         <PinnedItemInfo parentTag="Node" memberName="arrayList" />
       </pinned-members>
     </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="root" />
-        <watch expression="queue.toArray()[0]" />
-        <watch expression="arrayList" />
-        <watch expression="((HashMap.Node)hashMap.entrySet().toArray()[0]).getKey()" custom="java.util.HashMap.Node" />
-        <watch expression="height.length" language="JAVA" />
-        <watch expression="map.entrySet().toArray()[1]" />
-        <watch expression="args" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
