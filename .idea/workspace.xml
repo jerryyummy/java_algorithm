@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/7/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode189.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/8/2024 by yummy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,7 +239,7 @@
       <workItem from="1704482571769" duration="7217000" />
       <workItem from="1704570935554" duration="8219000" />
       <workItem from="1704694684251" duration="3851000" />
-      <workItem from="1704780270783" duration="3740000" />
+      <workItem from="1704780270783" duration="6582000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -560,14 +557,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704700636675</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="1/8/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1704789606494</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1704789606494</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="November 28" />
     <MESSAGE value="some updates" />
     <MESSAGE value="12/9 by yummy" />
     <MESSAGE value="12/10 by yummy" />
@@ -592,7 +596,8 @@
     <MESSAGE value="1/5/2024 by yummy" />
     <MESSAGE value="1/6/2024 by yummy" />
     <MESSAGE value="1/7/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="1/7/2024 by yummy" />
+    <MESSAGE value="1/8/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="1/8/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -601,11 +606,6 @@
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode189.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
