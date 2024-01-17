@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/9/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode2616.java" afterDir="false" />
+    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/15/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode691.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +86,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode189">
+  <component name="RunManager" selected="Application.Leetcode3008">
     <configuration name="Leetcode189" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode189" />
       <module name="java_algorithm" />
@@ -108,8 +108,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Leetcode3008" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode3008" />
+      <module name="java_algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode691" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode691" />
+      <module name="java_algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode3008" />
+        <item itemvalue="Application.Leetcode691" />
         <item itemvalue="Application.Leetcode189" />
         <item itemvalue="Application.Leetcode2967" />
         <item itemvalue="Application.Leetcode261" />
@@ -245,7 +261,12 @@
       <workItem from="1704780270783" duration="6582000" />
       <workItem from="1704842798912" duration="5807000" />
       <workItem from="1704930959006" duration="1111000" />
-      <workItem from="1704951930603" duration="2945000" />
+      <workItem from="1704951930603" duration="3787000" />
+      <workItem from="1705126383362" duration="3275000" />
+      <workItem from="1705191113385" duration="15599000" />
+      <workItem from="1705279612629" duration="5662000" />
+      <workItem from="1705367619000" duration="5670000" />
+      <workItem from="1705477839409" duration="422000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -274,22 +295,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00005" summary="12/9 by yummy">
-      <option name="closed" value="true" />
-      <created>1702147890069</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1702147890069</updated>
-    </task>
-    <task id="LOCAL-00006" summary="12/9 by yummy">
-      <option name="closed" value="true" />
-      <created>1702198003848</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1702198003848</updated>
     </task>
     <task id="LOCAL-00007" summary="12/10 by yummy">
       <option name="closed" value="true" />
@@ -587,17 +592,77 @@
       <option name="project" value="LOCAL" />
       <updated>1704932920368</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="1/9/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1704959846155</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1704959846155</updated>
+    </task>
+    <task id="LOCAL-00045" summary="1/12/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1705130668468</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1705130668468</updated>
+    </task>
+    <task id="LOCAL-00046" summary="1/13/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1705197564881</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1705197564881</updated>
+    </task>
+    <task id="LOCAL-00047" summary="1/14/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1705284581937</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1705284581937</updated>
+    </task>
+    <task id="LOCAL-00048" summary="1/14/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1705286648650</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1705286648650</updated>
+    </task>
+    <task id="LOCAL-00049" summary="1/15/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1705369123623</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1705369123623</updated>
+    </task>
+    <task id="LOCAL-00050" summary="1/15/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1705369773479</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1705369773480</updated>
+    </task>
+    <task id="LOCAL-00051" summary="1/15/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1705372783293</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1705372783293</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12/9 by yummy" />
-    <MESSAGE value="12/10 by yummy" />
-    <MESSAGE value="12/11 by yummy" />
-    <MESSAGE value="12/12 by yummy" />
     <MESSAGE value="12/13 by yummy" />
     <MESSAGE value="12/14 by yummy" />
     <MESSAGE value="12/15 by yummy" />
@@ -619,7 +684,11 @@
     <MESSAGE value="1/7/2024 by yummy" />
     <MESSAGE value="1/8/2024 by yummy" />
     <MESSAGE value="1/9/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="1/9/2024 by yummy" />
+    <MESSAGE value="1/12/2024 by yummy" />
+    <MESSAGE value="1/13/2024 by yummy" />
+    <MESSAGE value="1/14/2024 by yummy" />
+    <MESSAGE value="1/15/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="1/15/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
