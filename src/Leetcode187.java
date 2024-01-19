@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Leecode187 {
+public class Leetcode187 {
     public List<String> findRepeatedDnaSequences(String s) {
         int L = 10, n = s.length();
         if (n <= L) return new ArrayList();
