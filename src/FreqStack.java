@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-class FreqStack {
+class FreqStack {//from leetcode
   Map<Integer, Integer> freq;//记录元素频率
   Map<Integer, Stack<Integer>> group;//包含对应频率的栈
   int maxfreq;
