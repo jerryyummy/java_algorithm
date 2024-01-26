@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/24/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode785.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/Leetcode2851.java" afterDir="false" />
+    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/25/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode909.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcoe1856.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetoce283.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/snowflake/JobExcution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/snowflake/JobExcution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode3008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode3008.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcoe1856.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode1856.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetoce283.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode283.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode785.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode785.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +307,7 @@
       <workItem from="1705990900596" duration="3045000" />
       <workItem from="1706079415160" duration="3053000" />
       <workItem from="1706125922526" duration="20432000" />
-      <workItem from="1706243084724" duration="1376000" />
+      <workItem from="1706243084724" duration="7600000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -343,14 +336,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00017" summary="12/17 by yummy">
-      <option name="closed" value="true" />
-      <created>1702890857895</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1702890857895</updated>
     </task>
     <task id="LOCAL-00018" summary="12/17 by yummy">
       <option name="closed" value="true" />
@@ -704,14 +689,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706148212522</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="1/25/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706245752020</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1706245752021</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12/18 by yummy" />
     <MESSAGE value="12/20 by yummy" />
     <MESSAGE value="12/21 by yummy" />
     <MESSAGE value="12/22 by yummy" />
@@ -736,7 +728,8 @@
     <MESSAGE value="1/18/2024 by yummy" />
     <MESSAGE value="1/21/2024 by yummy" />
     <MESSAGE value="1/24/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="1/24/2024 by yummy" />
+    <MESSAGE value="1/25/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="1/25/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
