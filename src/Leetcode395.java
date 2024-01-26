@@ -32,12 +32,12 @@ public class Leetcode395 {
       int windowStart = 0, windowEnd = 0, idx = 0, unique = 0, countAtLeastK = 0;
       while (windowEnd < str.length) {
         // expand the sliding window
-        if (unique <= currUnique) {
+        if (unique <= currUnique) {//当不同的元素个数小于currUnique
           idx = str[windowEnd] - 'a';
           if (countMap[idx] == 0) unique++;
           countMap[idx]++;
-          if (countMap[idx] == k) countAtLeastK++;
-          windowEnd++;
+          if (countMap[idx] == k) countAtLeastK++;//该元素个数达到
+          windowEnd++;//扩张窗口
         }
         // shrink the sliding window
         else {
@@ -47,7 +47,7 @@ public class Leetcode395 {
           if (countMap[idx] == 0) unique--;
           windowStart++;
         }
-        if (unique == currUnique && unique == countAtLeastK)
+        if (unique == currUnique && currUnique == countAtLeastK)
           result = Math.max(windowEnd - windowStart, result);
       }
     }
