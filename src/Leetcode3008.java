@@ -1,9 +1,10 @@
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 
 public class Leetcode3008 {
-    void getPatternMatchingIndex(String s, String a, List<Integer> v){
-        String t = a + "@" + s;//create a new string where you want to search for the occurrence of a in s.
+    void getPatternMatchingIndex(String s, String t, List<Integer> v){
         List<Integer> lps = new ArrayList<>();
         lps.add(0);//Initializing Longest Prefix Suffix (LPS) Array:
         //Building the LPS Array:
@@ -13,7 +14,7 @@ public class Leetcode3008 {
             lps.add((t.charAt(ind) == t.charAt(i))?ind + 1 : 0);
         }
         for(int i = 0; i < lps.size(); ++i){
-            if(lps.get(i) == a.length()) v.add(i - 2*a.length());
+            if(lps.get(i) == t.length()) v.add(i - 2*t.length());
         }
     }
 

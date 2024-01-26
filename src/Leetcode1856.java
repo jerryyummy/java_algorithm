@@ -1,7 +1,6 @@
-import java.util.Arrays;
 import java.util.Stack;
 
-public class Leetcoe1856 {
+public class Leetcode1856 {
   public int maxSumMinProduct(int[] nums) {
     if(nums.length==0){
       return 0;

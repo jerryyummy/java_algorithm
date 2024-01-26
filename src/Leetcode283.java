@@ -1,4 +1,4 @@
-public class Leetoce283 {
+public class Leetcode283 {
     public void moveZeroes(int[] nums) {
         int i = 0, j = 0;
         while (j<nums.length){

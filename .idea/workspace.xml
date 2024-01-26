@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/24/2024 by yummy">
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/snowflake/ArrayReduction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/snowflake/ArrayReduction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snowflake/JobExcution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowflake/JobExcution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode785.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowflake/Leetcode2851.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcoe1856.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetoce283.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/snowflake/JobExcution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/snowflake/JobExcution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode3008.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode3008.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcoe1856.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode1856.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetoce283.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode283.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +60,7 @@
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -86,9 +94,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JobExcution">
-    <configuration name="EfficientCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snowflake.EfficientCost" />
+  <component name="RunManager" selected="Application.Leetcode2851">
+    <configuration name="JobExcution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snowflake.JobExcution" />
       <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JobExcution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snowflake.JobExcution" />
+    <configuration name="Leetcode2851" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snowflake.Leetcode2851" />
       <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode2851" />
         <item itemvalue="Application.JobExcution" />
         <item itemvalue="Application.ThreadCount" />
         <item itemvalue="Application.SequantialString" />
         <item itemvalue="Application.RadioWaves" />
-        <item itemvalue="Application.EfficientCost" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +313,8 @@
       <workItem from="1705967868859" duration="48000" />
       <workItem from="1705990900596" duration="3045000" />
       <workItem from="1706079415160" duration="3053000" />
-      <workItem from="1706125922526" duration="10654000" />
+      <workItem from="1706125922526" duration="20432000" />
+      <workItem from="1706243084724" duration="1376000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -334,14 +343,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00016" summary="12/17 by yummy">
-      <option name="closed" value="true" />
-      <created>1702887893691</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1702887893691</updated>
     </task>
     <task id="LOCAL-00017" summary="12/17 by yummy">
       <option name="closed" value="true" />
@@ -695,7 +696,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706143365419</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="1/24/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706148212522</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1706148212522</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -748,5 +757,10 @@
         <PinnedItemInfo parentTag="Node" memberName="arrayList" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="x" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
