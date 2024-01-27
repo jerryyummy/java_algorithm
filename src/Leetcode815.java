@@ -8,7 +8,7 @@ public class Leetcode815 {
       for (int j = 0; j < routes[i].length; j++) {
         List<Integer> list = map.getOrDefault(routes[i][j],new ArrayList<>());
         list.add(i);
-        map.put(routes[i][j],list);
+        map.put(routes[i][j],list);//记录每个stop关联的路线
       }
     }
     Queue<Integer> queue = new LinkedList<>();
