@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/25/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode395.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode465.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode694.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode815.java" afterDir="false" />
+    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/26/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode924.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode3008.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode3008.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,75 +88,19 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode395">
-    <configuration name="JobExcution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snowflake.JobExcution" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="snowflake.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager">
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="customTemplatesPath" value="" />
+      <option name="generateToPath" value="$PROJECT_DIR$/gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorType" value="OPENAPI_GENERATOR_V6" />
+      <option name="jdkPath" value="$APPLICATION_HOME_DIR$/jbr/Contents/Home/bin/java" />
+      <option name="language" value="kotlin" />
+      <option name="specificationPath" value="$PROJECT_DIR$/src/demo.yaml" />
+      <method v="2" />
     </configuration>
-    <configuration name="Leetcode2851" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snowflake.Leetcode2851" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="snowflake.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Leetcode395" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode395" />
-      <module name="java_algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SequantialString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snowflake.SequantialString" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="snowflake.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snowflake.ThreadCount" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="snowflake.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Leetcode395" />
-        <item itemvalue="Application.Leetcode2851" />
-        <item itemvalue="Application.JobExcution" />
-        <item itemvalue="Application.ThreadCount" />
-        <item itemvalue="Application.SequantialString" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -304,7 +247,9 @@
       <workItem from="1706079415160" duration="3053000" />
       <workItem from="1706125922526" duration="20432000" />
       <workItem from="1706243084724" duration="8399000" />
-      <workItem from="1706253948970" duration="1764000" />
+      <workItem from="1706253948970" duration="1860000" />
+      <workItem from="1706292482385" duration="10784000" />
+      <workItem from="1706315639134" duration="3702000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -333,38 +278,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00019" summary="12/18 by yummy">
-      <option name="closed" value="true" />
-      <created>1702970384955</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1702970384955</updated>
-    </task>
-    <task id="LOCAL-00020" summary="12/20 by yummy">
-      <option name="closed" value="true" />
-      <created>1703144473954</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1703144473954</updated>
-    </task>
-    <task id="LOCAL-00021" summary="12/20 by yummy">
-      <option name="closed" value="true" />
-      <created>1703146707322</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1703146707322</updated>
-    </task>
-    <task id="LOCAL-00022" summary="12/21 by yummy">
-      <option name="closed" value="true" />
-      <created>1703289704433</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1703289704433</updated>
     </task>
     <task id="LOCAL-00023" summary="12/22 by yummy">
       <option name="closed" value="true" />
@@ -694,14 +607,45 @@
       <option name="project" value="LOCAL" />
       <updated>1706253272373</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="1/25/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706255786298</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1706255786299</updated>
+    </task>
+    <task id="LOCAL-00065" summary="1/26/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706294404287</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1706294404287</updated>
+    </task>
+    <task id="LOCAL-00066" summary="1/26/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706296239920</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1706296239920</updated>
+    </task>
+    <task id="LOCAL-00067" summary="1/26/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706314962954</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1706314962954</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12/20 by yummy" />
     <MESSAGE value="12/21 by yummy" />
     <MESSAGE value="12/22 by yummy" />
     <MESSAGE value="12/24 by yummy" />
@@ -726,7 +670,8 @@
     <MESSAGE value="1/21/2024 by yummy" />
     <MESSAGE value="1/24/2024 by yummy" />
     <MESSAGE value="1/25/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="1/25/2024 by yummy" />
+    <MESSAGE value="1/26/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="1/26/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
