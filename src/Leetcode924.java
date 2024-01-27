@@ -44,13 +44,13 @@ public class Leetcode924 {
 
     /*
     遍历每个初始感染节点。如果它所在的连通分量中只有它一个初始感染节点，那么考虑移除它。
-    在所有可移除的节点中，选择能使得最大数量的非初始感染节点免受影响的节点。
-    如果有多个节点满足条件，则选择索引最小的节点。如果没有找到这样的节点，则选择初始感染节点中索引最小的一个
+   在所有可移除的节点中，选择能使得最大数量的非初始感染节点免受影响的节点。
+     如果有多个节点满足条件，则选择索引最小的节点。如果没有找到这样的节点，则选择初始感染节点中索引最小的一个
      */
     int ans = Integer.MAX_VALUE;
     for (int node: initial) {
       int c = colors[node];
-      if (colorCount[c] == 1) {
+      if (colorCount[c] == 1) {//如果连通分量有>=2个初始感染，无论移除哪个都没用
         // Choose the smallest node of the largest component.
         if (ans == Integer.MAX_VALUE)
           ans = node;

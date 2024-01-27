@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/26/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode924.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode3008.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode3008.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode924.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode924.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +88,13 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Leetcode259" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode259" />
+      <module name="java_algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="SwaggerCodegen">
       <option name="customTemplatesPath" value="" />
       <option name="generateToPath" value="$PROJECT_DIR$/gen" />
@@ -101,6 +107,11 @@
       <option name="specificationPath" value="$PROJECT_DIR$/src/demo.yaml" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Leetcode259" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -249,7 +260,7 @@
       <workItem from="1706243084724" duration="8399000" />
       <workItem from="1706253948970" duration="1860000" />
       <workItem from="1706292482385" duration="10784000" />
-      <workItem from="1706315639134" duration="3702000" />
+      <workItem from="1706315639134" duration="13268000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -278,30 +289,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00023" summary="12/22 by yummy">
-      <option name="closed" value="true" />
-      <created>1703383036127</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1703383036127</updated>
-    </task>
-    <task id="LOCAL-00024" summary="12/24 by yummy">
-      <option name="closed" value="true" />
-      <created>1703454982749</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1703454982749</updated>
-    </task>
-    <task id="LOCAL-00025" summary="12/25 by yummy">
-      <option name="closed" value="true" />
-      <created>1703534017339</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1703534017339</updated>
     </task>
     <task id="LOCAL-00026" summary="12/25 by yummy">
       <option name="closed" value="true" />
@@ -639,7 +626,31 @@
       <option name="project" value="LOCAL" />
       <updated>1706314962954</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="1/26/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706321362271</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1706321362271</updated>
+    </task>
+    <task id="LOCAL-00069" summary="1/26/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706335804304</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1706335804304</updated>
+    </task>
+    <task id="LOCAL-00070" summary="1/26/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706345984813</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1706345984813</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
