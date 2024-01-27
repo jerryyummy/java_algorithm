@@ -11,27 +11,42 @@ public class Leetcode924 {
     // Sort the initial infected list to ensure the smallest node is chosen in case of a tie
     Arrays.sort(initial);
 
+    /*
+    N 是图中节点的总数。colors 数组用于存储每个节点的“颜色”（即属于哪个连通分量）。
+    开始时，所有节点的颜色都设置为 -1，表示它们还没有被访问。C 用于计数不同的连通分量
+     */
     int N = graph.length;
     int[] colors = new int[N];
     Arrays.fill(colors, -1);
     int C = 0;
 
-    // Color each component.
+    /*
+    对图中的每个节点进行遍历。如果发现一个未着色的节点（即 colors[node] == -1），
+    则通过深度优先搜索（DFS）对该节点及其连通的节点进行着色，每找到一个新的连通分量，C 自增
+     */
     for (int node = 0; node < N; ++node)
       if (colors[node] == -1)
         dfs(graph, colors, node, C++);
 
-    // Size of each color.
+    /*
+    遍历 colors 数组，统计每个连通分量的大小（即每种颜色包含的节点数）。
+     */
     int[] size = new int[C];
     for (int color: colors)
       size[color]++;
 
-    // Find the unique colors.
+    /*
+    对于初始感染的每个节点，增加其颜色在 colorCount 中的计数。这表示该连通分量中有多少个节点是初始感染的
+     */
     int[] colorCount = new int[C];
     for (int node: initial)
       colorCount[colors[node]]++;
 
-    // Answer
+    /*
+    遍历每个初始感染节点。如果它所在的连通分量中只有它一个初始感染节点，那么考虑移除它。
+    在所有可移除的节点中，选择能使得最大数量的非初始感染节点免受影响的节点。
+    如果有多个节点满足条件，则选择索引最小的节点。如果没有找到这样的节点，则选择初始感染节点中索引最小的一个
+     */
     int ans = Integer.MAX_VALUE;
     for (int node: initial) {
       int c = colors[node];
