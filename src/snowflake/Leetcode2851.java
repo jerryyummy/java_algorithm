@@ -15,7 +15,7 @@ class Leetcode2851 {
     return s.equals(t) ? (int) m[0][0] : (int) m[0][1];
   }
 
-  // KMP 模板
+  // KMP 模板，构建lps数组
   private int[] calcMaxMatch(String s) {
     int[] match = new int[s.length()];
     int c = 0;
