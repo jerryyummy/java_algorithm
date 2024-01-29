@@ -40,4 +40,56 @@ public class Leetcode210 {
     return res;
   }
 
+  /*
+  // TODO a good implementation that combines directed cycle detection and topological sort
+    List<Integer>[] adjacencyList;
+    boolean hasCycle = false;
+    boolean[] marked;
+    boolean[] onStack;
+    int[] order;
+    int end;
+
+    public int[] findOrder(int numCourses, int[][] prerequisites) {
+        adjacencyList = new List[numCourses];
+        marked = new boolean[numCourses];
+        onStack = new boolean[numCourses];
+        order = new int[numCourses];
+        end = numCourses - 1;
+
+        for (int[] prerequisite : prerequisites) {
+            int src = prerequisite[1];
+            int dst = prerequisite[0];
+            if (adjacencyList[src] == null) adjacencyList[src] = new ArrayList<>();
+            adjacencyList[src].add(dst);
+        }
+        for (int i = 0; i < adjacencyList.length; i++) {
+            if (hasCycle) break;
+            if (!marked[i]) topologicalSort(i);
+        }
+
+        if (hasCycle) return new int[0];
+        else return order;
+    }
+
+    private void topologicalSort(int v) {
+        marked[v] = true;
+        if (adjacencyList[v] == null) {
+            order[end--] = v;
+            return;
+        }
+        onStack[v] = true;
+        for (int w : adjacencyList[v]) {
+            if (hasCycle) return;
+            if (!marked[w]) {
+                topologicalSort(w);
+            } else if (onStack[w]) {
+                hasCycle = true;
+                return;
+            }
+        }
+        onStack[v] = false;
+        order[end--] = v;
+    }
+   */
+
 }
