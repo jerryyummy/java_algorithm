@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/27/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode1573.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode1631.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaximumSubsetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/MaximumOrderVolume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/MaximumSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/MeetingAssistant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/SmallestSet.java" afterDir="false" />
+    <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="1/31/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode1857.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode684.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode934.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowflake/UnequalElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode210.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode210.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,17 +89,56 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximumSubsetSum">
-    <configuration name="Leetcode259" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode259" />
+  <component name="RunManager" selected="Application.Leetcode52">
+    <configuration name="EfficientCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snowflake.EfficientCost" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snowflake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode52" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode52" />
       <module name="java_algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSubsetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximumSubsetSum" />
+    <configuration name="Leetcode77" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode77" />
       <module name="java_algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioWaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snowflake.RadioWaves" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snowflake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnequalElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snowflake.UnequalElements" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snowflake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,8 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaximumSubsetSum" />
-        <item itemvalue="Application.Leetcode259" />
+        <item itemvalue="Application.Leetcode52" />
+        <item itemvalue="Application.Leetcode77" />
+        <item itemvalue="Application.EfficientCost" />
+        <item itemvalue="Application.RadioWaves" />
+        <item itemvalue="Application.UnequalElements" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +315,12 @@
       <workItem from="1706315639134" duration="13268000" />
       <workItem from="1706379017017" duration="11032000" />
       <workItem from="1706465110226" duration="17857000" />
-      <workItem from="1706555324861" duration="484000" />
+      <workItem from="1706555324861" duration="9904000" />
+      <workItem from="1706592529895" duration="4398000" />
+      <workItem from="1706638871364" duration="12509000" />
+      <workItem from="1706681870721" duration="4819000" />
+      <workItem from="1706724371923" duration="19815000" />
+      <workItem from="1706840941429" duration="2378000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -306,118 +349,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00031" summary="12/28 by yummy">
-      <option name="closed" value="true" />
-      <created>1703899374645</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1703899374645</updated>
-    </task>
-    <task id="LOCAL-00032" summary="12/28 by yummy">
-      <option name="closed" value="true" />
-      <created>1703899456020</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1703899456020</updated>
-    </task>
-    <task id="LOCAL-00033" summary="12/29 by yummy">
-      <option name="closed" value="true" />
-      <created>1703904470305</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1703904470305</updated>
-    </task>
-    <task id="LOCAL-00034" summary="12/30 by yummy">
-      <option name="closed" value="true" />
-      <created>1703989573292</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1703989573292</updated>
-    </task>
-    <task id="LOCAL-00035" summary="12/30 by yummy">
-      <option name="closed" value="true" />
-      <created>1704014039240</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1704014039240</updated>
-    </task>
-    <task id="LOCAL-00036" summary="1/1/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1704173784891</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1704173784891</updated>
-    </task>
-    <task id="LOCAL-00037" summary="1/1/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1704186403694</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1704186403694</updated>
-    </task>
-    <task id="LOCAL-00038" summary="1/5/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1704519903206</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1704519903206</updated>
-    </task>
-    <task id="LOCAL-00039" summary="1/6/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1704610212604</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1704610212604</updated>
-    </task>
-    <task id="LOCAL-00040" summary="1/7/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1704700636674</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1704700636675</updated>
-    </task>
-    <task id="LOCAL-00041" summary="1/8/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1704789606494</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1704789606494</updated>
-    </task>
-    <task id="LOCAL-00042" summary="1/9/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1704851421335</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1704851421335</updated>
-    </task>
-    <task id="LOCAL-00043" summary="1/9/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1704932920368</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1704932920368</updated>
-    </task>
-    <task id="LOCAL-00044" summary="1/9/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1704959846155</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1704959846155</updated>
     </task>
     <task id="LOCAL-00045" summary="1/12/2024 by yummy">
       <option name="closed" value="true" />
@@ -667,16 +598,125 @@
       <option name="project" value="LOCAL" />
       <updated>1706424911697</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="1/29/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706555975958</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1706555975959</updated>
+    </task>
+    <task id="LOCAL-00077" summary="1/29/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706592550851</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1706592550851</updated>
+    </task>
+    <task id="LOCAL-00078" summary="1/29/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706595043383</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1706595043383</updated>
+    </task>
+    <task id="LOCAL-00079" summary="1/30/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706645180725</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1706645180725</updated>
+    </task>
+    <task id="LOCAL-00080" summary="1/30/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706658962587</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1706658962587</updated>
+    </task>
+    <task id="LOCAL-00081" summary="1/30/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706687091300</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1706687091300</updated>
+    </task>
+    <task id="LOCAL-00082" summary="1/30/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706729058303</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1706729058304</updated>
+    </task>
+    <task id="LOCAL-00083" summary="1/30/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706730706069</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1706730706069</updated>
+    </task>
+    <task id="LOCAL-00084" summary="1/30/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706732397941</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1706732397941</updated>
+    </task>
+    <task id="LOCAL-00085" summary="1/31/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706755464294</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1706755464294</updated>
+    </task>
+    <task id="LOCAL-00086" summary="1/31/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706757180432</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1706757180432</updated>
+    </task>
+    <task id="LOCAL-00087" summary="1/31/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706757734065</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1706757734065</updated>
+    </task>
+    <task id="LOCAL-00088" summary="1/31/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706762234432</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1706762234432</updated>
+    </task>
+    <task id="LOCAL-00089" summary="1/31/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1706770772670</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1706770772670</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12/22 by yummy" />
-    <MESSAGE value="12/24 by yummy" />
-    <MESSAGE value="12/25 by yummy" />
     <MESSAGE value="12/26 by yummy" />
     <MESSAGE value="12/28 by yummy" />
     <MESSAGE value="12/29 by yummy" />
@@ -699,7 +739,10 @@
     <MESSAGE value="1/25/2024 by yummy" />
     <MESSAGE value="1/26/2024 by yummy" />
     <MESSAGE value="1/27/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="1/27/2024 by yummy" />
+    <MESSAGE value="1/29/2024 by yummy" />
+    <MESSAGE value="1/30/2024 by yummy" />
+    <MESSAGE value="1/31/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="1/31/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -708,11 +751,6 @@
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/snowflake/RadioWaves.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
