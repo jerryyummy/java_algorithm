@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="081b5236-4a7e-462c-953e-794a064f0002" name="Default Changelist" comment="2/15/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode2369.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode1444.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode304.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,22 +87,16 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode2369">
-    <configuration name="EfficientCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snowflake.EfficientCost" />
+  <component name="RunManager" selected="Application.Leetcode304">
+    <configuration name="Leetcode2369" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode2369" />
       <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="snowflake.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode2369" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode2369" />
+    <configuration name="Leetcode304" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode304" />
       <module name="java_algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode304" />
         <item itemvalue="Application.Leetcode2369" />
         <item itemvalue="Application.Leetcode720" />
         <item itemvalue="Application.Leetcode52" />
         <item itemvalue="Application.Leetcode77" />
-        <item itemvalue="Application.EfficientCost" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +309,10 @@
       <workItem from="1707203974604" duration="1279000" />
       <workItem from="1707247790364" duration="12896000" />
       <workItem from="1707958446537" duration="7578000" />
-      <workItem from="1708025715842" duration="5925000" />
+      <workItem from="1708025715842" duration="6340000" />
+      <workItem from="1708051876914" duration="16000" />
+      <workItem from="1708052070474" duration="15000" />
+      <workItem from="1708112739329" duration="5185000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -343,14 +341,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00055" summary="1/17/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1705550635743</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1705550635743</updated>
     </task>
     <task id="LOCAL-00056" summary="1/17/2024 by yummy">
       <option name="closed" value="true" />
@@ -704,7 +694,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708045458858</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="2/15/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1708047303443</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1708047303443</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -752,10 +750,5 @@
         <PinnedItemInfo parentTag="Node" memberName="arrayList" />
       </pinned-members>
     </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="root" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
