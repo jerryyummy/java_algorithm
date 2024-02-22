@@ -5,7 +5,7 @@ Notice that the solution set must not contain duplicate triplets.
  */
 import java.util.*;
 
-public class ThreeSum {
+public class Leetcode15 {
     public List<List<Integer>> threeSum(int[] nums) {
 //        Set<List<Integer>> resultSet = new HashSet();
 //        Set<Integer> duplicatedSet = new HashSet<>();
