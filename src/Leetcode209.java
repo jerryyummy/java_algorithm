@@ -1,4 +1,4 @@
-public class leetcode209 {
+public class Leetcode209 {
     public int minSubArrayLen(int target, int[] nums) {
         int n = nums.length;
         int ans = Integer.MAX_VALUE;
