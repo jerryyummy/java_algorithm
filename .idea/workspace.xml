@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="2/24/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode289.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode57.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode49.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode49.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.16308594&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.4213099&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.17172897&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -84,10 +83,25 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/example" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode49">
+  <component name="RunManager" selected="Application.CommandProcessor">
+    <configuration name="CommandProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.CommandProcessor" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Leetcode238" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode238" />
       <module name="java_algorithm" />
@@ -109,15 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode673" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode673" />
-      <module name="java_algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Leetcode81" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode81" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java_algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommandProcessor" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Leetcode49" />
         <item itemvalue="Application.Leetcode238" />
         <item itemvalue="Application.Leetcode275" />
-        <item itemvalue="Application.Leetcode673" />
-        <item itemvalue="Application.Leetcode81" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +332,10 @@
       <workItem from="1708649796274" duration="6546000" />
       <workItem from="1708711803226" duration="6659000" />
       <workItem from="1708756793340" duration="1241000" />
-      <workItem from="1708798236726" duration="5390000" />
+      <workItem from="1708798236726" duration="5444000" />
+      <workItem from="1708905797595" duration="4640000" />
+      <workItem from="1708912843239" duration="4613000" />
+      <workItem from="1708999839273" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -354,22 +364,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00075" summary="1/27/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1706424911697</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1706424911697</updated>
-    </task>
-    <task id="LOCAL-00076" summary="1/29/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1706555975958</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1706555975959</updated>
     </task>
     <task id="LOCAL-00077" summary="1/29/2024 by yummy">
       <option name="closed" value="true" />
@@ -715,7 +709,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708801651935</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="2/24/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1708804621511</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1708804621511</updated>
+    </task>
+    <task id="LOCAL-00121" summary="2/24/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1708804653937</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1708804653937</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -763,5 +773,10 @@
         <PinnedItemInfo parentTag="Node" memberName="arrayList" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="m" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
