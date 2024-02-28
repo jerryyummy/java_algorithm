@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="2/26/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode71.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode114.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode117.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode129.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode173.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode106.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode106.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +341,8 @@
       <workItem from="1708905797595" duration="4640000" />
       <workItem from="1708912843239" duration="4613000" />
       <workItem from="1708999839273" duration="601000" />
-      <workItem from="1709006047826" duration="1827000" />
+      <workItem from="1709006047826" duration="4597000" />
+      <workItem from="1709058180021" duration="8240000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -364,22 +371,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00078" summary="1/29/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1706595043383</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1706595043383</updated>
-    </task>
-    <task id="LOCAL-00079" summary="1/30/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1706645180725</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1706645180725</updated>
     </task>
     <task id="LOCAL-00080" summary="1/30/2024 by yummy">
       <option name="closed" value="true" />
@@ -725,7 +716,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709007029519</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="2/26/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1709011329614</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1709011329614</updated>
+    </task>
+    <task id="LOCAL-00124" summary="2/26/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1709017850503</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1709017850503</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -766,11 +773,6 @@
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode71.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -778,10 +780,5 @@
         <PinnedItemInfo parentTag="Node" memberName="arrayList" />
       </pinned-members>
     </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="m" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
