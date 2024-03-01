@@ -32,7 +32,7 @@ public class Leetcode772 {
         curr += c;
       } else if (c == '(') {
         stack.push("" + previousOperator); // convert char to string before pushing
-        previousOperator = '+';
+        previousOperator = '+';//()里第一个符号是+
       } else {
         if (previousOperator == '*' || previousOperator == '/') {
           stack.push(evaluate(previousOperator, stack.pop(), curr));
@@ -40,11 +40,11 @@ public class Leetcode772 {
           stack.push(evaluate(previousOperator, curr, "0"));
         }
 
-        curr = "";
-        previousOperator = c;
+        curr = "";//当前数字是0
+        previousOperator = c;//更改运算符
         if (c == ')') {
-          int currentTerm = 0;
-          while (!operators.contains(stack.peek())) {
+          int currentTerm = 0;//当前的数字
+          while (!operators.contains(stack.peek())) {//只要栈里面一直是数字
             currentTerm += Integer.parseInt(stack.pop());
           }
 
