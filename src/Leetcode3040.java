@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -9,7 +10,7 @@ public class Leetcode3040 {
   public int maxOperations(int[] nums) {
     int max = 0, n = nums.length;
     for (int score : new HashSet<>(
-        List.of(nums[0] + nums[1], nums[0] + nums[n - 1], nums[n - 2] + nums[n - 1]))) {
+        Arrays.asList(nums[0] + nums[1], nums[0] + nums[n - 1], nums[n - 2] + nums[n - 1]))) {
       max = Math.max(max, dfs(nums, 0, n - 1, score, new HashMap<String, Integer>()));
     }
     return max;
