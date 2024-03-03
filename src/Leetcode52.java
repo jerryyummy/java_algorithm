@@ -42,9 +42,4 @@ public class Leetcode52 {
     }
   }
 
-  public static void main(String[] args) {
-    Leetcode52 solution = new Leetcode52();
-    System.out.println(solution.totalNQueens(6));
-  }
-
 }
