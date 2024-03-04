@@ -1,3 +1,4 @@
+import java.util.Deque;
 import java.util.Objects;
 import java.util.Stack;
 
@@ -5,6 +6,7 @@ public class Leetcode394 {
   public String decodeString(String s) {
     Stack<Integer> numStack = new Stack<>();
     Stack<String> strStack = new Stack<>();
+
     for (int i = 0; i < s.length(); i++) {
       String temp = s.substring(i,i+1);
       if (Character.isDigit(s.charAt(i))) {//如果当前是数字
@@ -14,8 +16,9 @@ public class Leetcode394 {
           i++;
         }
         numStack.push(number);
-      } else if(!temp.equals("]")) strStack.push(temp);
-      else {
+      } else if(!temp.equals("]")) {
+        strStack.push(temp);
+      } else {
         StringBuilder cur = new StringBuilder();
         while (!strStack.isEmpty() && !Objects.equals(strStack.peek(), "[")){
           cur.insert(0, strStack.pop());
