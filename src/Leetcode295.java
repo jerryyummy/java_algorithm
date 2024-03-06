@@ -1,11 +1,11 @@
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-class MedianFinder {
+class Leetcode295 {
     Queue<Integer> smallqueue;
     Queue<Integer> bigqueue;
 
-    public MedianFinder() {
+    public Leetcode295() {
         smallqueue = new PriorityQueue<>((a,b)->a-b);//存放较大的一半
         bigqueue = new PriorityQueue<>((a,b)->b-a);//存放较小的一半
     }
