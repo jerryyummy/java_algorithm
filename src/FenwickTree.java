@@ -1,4 +1,5 @@
-public class FenwickTree {int[] array;
+public class FenwickTree {
+    int[] array;
 
     public FenwickTree(int n) {
         array = new int[n + 1];

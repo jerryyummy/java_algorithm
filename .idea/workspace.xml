@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="3/9/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode1035.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode1626.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="3/15/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode352.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode625.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode978.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meituan/IMG_0898.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meituan/ReverseOrderPair.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meituan/ReverseOrderPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mihoyo/KillMonster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mihoyo/kill monster.JPEG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/FenwickTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/FenwickTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FenwickTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FenwickTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +78,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm/src/mihoyo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -85,12 +93,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mihoyo" />
+      <recent name="$PROJECT_DIR$/src/meituan" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/example" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.KillMonster">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="java_algorithm" />
@@ -98,9 +108,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode3039" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode3039" />
+    <configuration name="KillMonster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mihoyo.KillMonster" />
       <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mihoyo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,9 +135,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode71" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode71" />
+    <configuration name="ReverseOrderPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="meituan.ReverseOrderPair" />
       <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="meituan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KillMonster" />
+        <item itemvalue="Application.ReverseOrderPair" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Leetcode433" />
         <item itemvalue="Application.Leetcode3040" />
-        <item itemvalue="Application.Leetcode3039" />
-        <item itemvalue="Application.Leetcode71" />
       </list>
     </recent_temporary>
   </component>
@@ -350,6 +372,12 @@
       <workItem from="1710034396375" duration="5741000" />
       <workItem from="1710524382066" duration="1901000" />
       <workItem from="1710553824869" duration="643000" />
+      <workItem from="1710564600687" duration="2561000" />
+      <workItem from="1710586634589" duration="6771000" />
+      <workItem from="1710656605041" duration="5512000" />
+      <workItem from="1710699268486" duration="4724000" />
+      <workItem from="1710833835295" duration="35000" />
+      <workItem from="1710872144136" duration="5105000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -378,14 +406,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00099" summary="2/15/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1708045458858</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1708045458858</updated>
     </task>
     <task id="LOCAL-00100" summary="2/15/2024 by yummy">
       <option name="closed" value="true" />
@@ -739,14 +759,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710046192738</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="3/15/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1710567270822</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1710567270823</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2/6/2024 by yummy" />
     <MESSAGE value="2/14/2024 by yummy" />
     <MESSAGE value="2/15/2024 by yummy" />
     <MESSAGE value="2/16/2024 by yummy" />
@@ -771,7 +798,8 @@
     <MESSAGE value="3/7/2024 by yummy" />
     <MESSAGE value="3/8/2024 by yummy" />
     <MESSAGE value="3/9/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="3/9/2024 by yummy" />
+    <MESSAGE value="3/15/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/15/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
