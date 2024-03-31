@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Codec {//from leetcode
+class Leetcode271 {//from leetcode
 
     // Encodes a list of strings to a single string.
     public String encode(List<String> strs) {

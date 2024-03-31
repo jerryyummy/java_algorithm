@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="3/20/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode1963.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode280.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/meituan/MinSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/meituan/MinSwap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/meituan/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/meituan/img_1.png" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="3/23/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode1049.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3091.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3092.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode416.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode474.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode494.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meituan/MinSubSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meituan/MinSubSum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meituan/SumOfFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meituan/SumOfFactor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mihoyo/ConnectMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mihoyo/ConnectMachine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xhs/MinAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xhs/MinAccount.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Codec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode271.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +109,20 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KillMonster">
+  <component name="RunManager" selected="Application.ConnectMachine">
+    <configuration name="ConnectMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mihoyo.ConnectMachine" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mihoyo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="java_algorithm" />
@@ -114,13 +139,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Leetcode3040" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode3040" />
-      <module name="java_algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectMachine" />
         <item itemvalue="Application.KillMonster" />
         <item itemvalue="Application.ReverseOrderPair" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Leetcode433" />
-        <item itemvalue="Application.Leetcode3040" />
       </list>
     </recent_temporary>
   </component>
@@ -380,6 +398,14 @@
       <workItem from="1711066339358" duration="1209000" />
       <workItem from="1711123431413" duration="1234000" />
       <workItem from="1711151041346" duration="11570000" />
+      <workItem from="1711179773542" duration="830000" />
+      <workItem from="1711217714256" duration="11395000" />
+      <workItem from="1711325853760" duration="2297000" />
+      <workItem from="1711595266748" duration="2749000" />
+      <workItem from="1711623779249" duration="8891000" />
+      <workItem from="1711633609727" duration="4434000" />
+      <workItem from="1711675433422" duration="2458000" />
+      <workItem from="1711759651332" duration="11860000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -408,22 +434,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00102" summary="2/16/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1708128269283</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1708128269283</updated>
-    </task>
-    <task id="LOCAL-00103" summary="2/17/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1708235056778</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1708235056779</updated>
     </task>
     <task id="LOCAL-00104" summary="2/18/2024 by yummy">
       <option name="closed" value="true" />
@@ -769,14 +779,40 @@
       <option name="project" value="LOCAL" />
       <updated>1710970582308</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="3/23/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1711180539415</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1711180539416</updated>
+    </task>
+    <task id="LOCAL-00148" summary="3/23/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1711180549873</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1711180549873</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2/16/2024 by yummy" />
     <MESSAGE value="2/17/2024 by yummy" />
     <MESSAGE value="2/18/2024 by yummy" />
     <MESSAGE value="2/19/2024 by yummy" />
@@ -801,7 +837,8 @@
     <MESSAGE value="3/15/2024 by yummy" />
     <MESSAGE value="3/19/2024 by yummy" />
     <MESSAGE value="3/20/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="3/20/2024 by yummy" />
+    <MESSAGE value="3/23/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/23/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -817,5 +854,10 @@
         <PinnedItemInfo parentTag="Node" memberName="arrayList" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="machine" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
