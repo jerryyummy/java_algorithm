@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="3/23/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode1049.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode3091.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode3092.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode347.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode416.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode474.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode494.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/meituan/MinSubSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/meituan/MinSubSum.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/meituan/SumOfFactor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/meituan/SumOfFactor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mihoyo/ConnectMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mihoyo/ConnectMachine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xhs/MinAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xhs/MinAccount.png" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="3/29/2024 by yummy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Codec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode271.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode1049.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode1049.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -405,7 +387,8 @@
       <workItem from="1711623779249" duration="8891000" />
       <workItem from="1711633609727" duration="4434000" />
       <workItem from="1711675433422" duration="2458000" />
-      <workItem from="1711759651332" duration="11860000" />
+      <workItem from="1711759651332" duration="12714000" />
+      <workItem from="1711861117145" duration="2630000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -434,14 +417,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00104" summary="2/18/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1708300584296</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1708300584296</updated>
     </task>
     <task id="LOCAL-00105" summary="2/19/2024 by yummy">
       <option name="closed" value="true" />
@@ -795,7 +770,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711180549873</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="3/29/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1711847046948</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1711847046949</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -813,7 +796,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2/17/2024 by yummy" />
     <MESSAGE value="2/18/2024 by yummy" />
     <MESSAGE value="2/19/2024 by yummy" />
     <MESSAGE value="2/20/2024 by yummy" />
@@ -838,7 +820,8 @@
     <MESSAGE value="3/19/2024 by yummy" />
     <MESSAGE value="3/20/2024 by yummy" />
     <MESSAGE value="3/23/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="3/23/2024 by yummy" />
+    <MESSAGE value="3/29/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/29/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
