@@ -1,82 +1,50 @@
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
-  static final int MOD = (int) (1e9 + 7);
-  static final int MAX = 200000; // 假设输入的n不会超过这个数
-  static Map<Integer, Integer> primeExponents = new HashMap<>();
-
-  // 预处理质数的指数
-  static {
-    for (int i = 2; i <= MAX; i++) {
-      int num = i;
-      for (int factor = 2; factor <= num / factor; factor++) {
-        while (num % factor == 0) {
-          primeExponents.put(factor, primeExponents.getOrDefault(factor, 0) + 1);
-          num /= factor;
-        }
-      }
-      if (num > 1) {
-        primeExponents.put(num, primeExponents.getOrDefault(num, 0) + 1);
-      }
-    }
-  }
-
-  public static long countFactors(Map<Integer, Integer> factors) {
-    long count = 1;
-    for (int exponent : factors.values()) {
-      count = (count * (exponent + 1)) % MOD;
-    }
-    return count;
-  }
-
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    int n = scanner.nextInt();
-    int[] array = new int[n];
-
-    long totalSum = 0;
-    for (int i = 0; i < n; i++) {
-      array[i] = scanner.nextInt();
-      totalSum += array[i];
+    int n = scanner.nextInt(); // 将 n 修改为 int 类型，适应 Java 集合的索引
+    ArrayList<Long> a = new ArrayList<>(); // 使用 ArrayList 存储长整型，方便后续操作
+    long sum = 0;
+    for (int i = 0; i < n; ++i) {
+      long temp = scanner.nextLong();
+      a.add(temp);
+      sum += temp;
     }
-
-    long maxDecrease = 0;
-    long currentDecrease = 0;
-
-
-    int i = 0, j = 0;
-    while (j < n){
-      if (array[j]%2==0){
-        currentDecrease+=array[j]/2;
-        if (currentDecrease<maxDecrease){
-          maxDecrease = currentDecrease;
-        }
-      }else {
-        while (i < j){
-          currentDecrease-=array[i]/2;
-          if (currentDecrease<maxDecrease){
-            maxDecrease = currentDecrease;
-          }
-          i++;
-        }
-        i= j+1;
+    ArrayList<Long> b = new ArrayList<>(a);
+    Collections.sort(b, Collections.reverseOrder());
+    long s = n * b.get(0) - sum;
+    for (int i = 0; i < n; ++i) {
+      if (a.get(i).equals(b.get(0))) {
+        System.out.println(sum);
+        continue;
       }
-      j++;
-    }
-
-    while (i<j){
-      currentDecrease-=array[i]/2;
-      if (currentDecrease<maxDecrease){
-        maxDecrease = currentDecrease;
+      if (n == 2) {
+        System.out.println("-1");
+        continue;
       }
-      i++;
+      long currentA = a.get(i) + 1;
+      long diff = b.get(0) - currentA, cur = s - (b.get(0) - currentA + 1), ans = sum + 1;
+      if (diff <= cur) {
+        ans += 2 * diff;
+        System.out.println(ans);
+      } else {
+        ans += 2 * cur;
+        currentA += cur;
+        long l = 1, r = 1000000000; // 用长整型表示 1e9
+        while (l <= r) {
+          long mid = (l + r) / 2;
+          long t = mid / (n - 1);
+          if (mid % (n - 1) != 0) t += 1;
+          if (currentA + mid < t + b.get(0)) l = mid + 1;
+          else r = mid - 1;
+        }
+        ans += 2 * l;
+        System.out.println(ans);
+      }
     }
-    maxDecrease = Math.min(maxDecrease, currentDecrease);
-
-    long maxPossibleSum = totalSum + maxDecrease;
-
-    System.out.println(maxPossibleSum);
+    scanner.close();
   }
 }

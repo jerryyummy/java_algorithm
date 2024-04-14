@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 public class SubmissionPenalty {
+
   public static int minPenalty(String s, int k) {
     Map<Character, Integer> firstSuccess = new HashMap<>();
     Map<Character, Integer> failuresBeforeSuccess = new HashMap<>();
@@ -47,6 +48,7 @@ public class SubmissionPenalty {
   }
 
   public static int calculatePenalty(Map<Character, Integer> successMap, Map<Character, Integer> failureMap, int k, boolean min) {
+    if (k==0) return 0;
     int penalty = 0;
     PriorityQueue<Integer> queue = new PriorityQueue(min ? Comparator.naturalOrder() : Comparator.reverseOrder());
 

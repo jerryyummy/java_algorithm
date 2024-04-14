@@ -32,8 +32,8 @@ public class ArrayEquality {
         number /= i;
       }
     }
+    factors.put(number, 1);
     if (number > 1) {
-      factors.put(number, 1);
     }
     return factors;
   }
