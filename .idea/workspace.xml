@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="4/6/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Intelligent_information/SubstringWithoutSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dingding/RedBlackTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mayi/MaxGCDPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mayi/MaxGCDPartition.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mayi/OptimizedShopping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mayi/OptimizedShopping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mayi/ShapeIdentifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mayi/ShapeIdentifier.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shopee/HeroPurchaser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shopee/LowercaseLettersFlipped.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xhs/SumOfLikes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xhs/点赞之和.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode100267.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode1843.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/huawei/CrossStreet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dingding/ArrayEquality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dingding/ArrayEquality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dingding/SubmissionPenalty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dingding/SubmissionPenalty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dingding/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/dingding/redblacktree.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xhs/MinAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xhs/MinAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,26 +66,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/youyun/Documents/java-project/java_algorithm/src/xhs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.25976562",
-    "project.structure.side.proportion": "0.20603015",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.scopes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm/src/xhs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.25976562&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20603015&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/xhs" />
@@ -108,7 +95,14 @@
       <recent name="$PROJECT_DIR$/src/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubstringWithoutSubsequence">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="java_algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HeroPurchaser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="shopee.HeroPurchaser" />
       <module name="java_algorithm" />
@@ -122,28 +116,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxGCDPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mayi.MaxGCDPartition" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mayi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xhs.MinAccount" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xhs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SubstringWithoutSubsequence" />
         <item itemvalue="Application.HeroPurchaser" />
         <item itemvalue="Application.ShapeIdentifier" />
-        <item itemvalue="Application.MaxGCDPartition" />
-        <item itemvalue="Application.MinAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +403,14 @@
       <workItem from="1712816432029" duration="5229000" />
       <workItem from="1712877121507" duration="596000" />
       <workItem from="1712979797086" duration="6528000" />
-      <workItem from="1713025536630" duration="13740000" />
+      <workItem from="1713025536630" duration="13975000" />
+      <workItem from="1713061880242" duration="4733000" />
+      <workItem from="1713178108297" duration="5615000" />
+      <workItem from="1713381110954" duration="6917000" />
+      <workItem from="1713427378495" duration="6900000" />
+      <workItem from="1713872378766" duration="3558000" />
+      <workItem from="1714219256599" duration="3815000" />
+      <workItem from="1714354918774" duration="2855000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -457,14 +439,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00108" summary="2/21/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1708541048550</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1708541048550</updated>
     </task>
     <task id="LOCAL-00109" summary="2/21/2024 by yummy">
       <option name="closed" value="true" />
@@ -818,7 +792,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712463328684</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="4/6/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1713059577047</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1713059577047</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
