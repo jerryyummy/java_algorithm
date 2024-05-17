@@ -28,7 +28,7 @@ public class Leetcode224 {
         result = 0;
       } else if (ch == ')') {
         result += sign * operand;
-        result *= stack.pop();
+        result *= stack.pop();//括号之前的符号
         result += stack.pop();
         operand = 0;
       }

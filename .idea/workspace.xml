@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="4/6/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode100267.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode1843.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/huawei/CrossStreet.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="4/29/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode1845.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode958.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode224.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode224.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +44,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="93feb997-432e-4879-8c9e-809e9be34f91" />
-        <option name="url" value="git@github.com:jerryyummy/java_algorithm.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:jerryyummy/java_algorithm.git",
+    "accountId": "93feb997-432e-4879-8c9e-809e9be34f91"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
@@ -66,26 +64,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm/src/xhs&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.25976562&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.20603015&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/youyun/Documents/java-project/java_algorithm/src/xhs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.25976562",
+    "project.structure.side.proportion": "0.20603015",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.scopes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/xhs" />
@@ -95,7 +95,7 @@
       <recent name="$PROJECT_DIR$/src/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="java_algorithm" />
@@ -149,8 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="SwaggerCodegen">
+    <configuration default="true" type="SwaggerCodegen" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
       <option name="customTemplatesPath" value="" />
+      <option name="envs">
+        <map />
+      </option>
       <option name="generateToPath" value="$PROJECT_DIR$/gen" />
       <option name="generationParameters">
         <list />
@@ -158,18 +162,33 @@
       <option name="generatorType" value="OPENAPI_GENERATOR_V6" />
       <option name="jdkPath" value="$APPLICATION_HOME_DIR$/jbr/Contents/Home/bin/java" />
       <option name="language" value="kotlin" />
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
       <option name="specificationPath" value="$PROJECT_DIR$/src/demo.yaml" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.SubstringWithoutSubsequence" />
         <item itemvalue="Application.HeroPurchaser" />
         <item itemvalue="Application.ShapeIdentifier" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -410,7 +429,10 @@
       <workItem from="1713427378495" duration="6900000" />
       <workItem from="1713872378766" duration="3558000" />
       <workItem from="1714219256599" duration="3815000" />
-      <workItem from="1714354918774" duration="2855000" />
+      <workItem from="1714354918774" duration="3758000" />
+      <workItem from="1715246468746" duration="2533000" />
+      <workItem from="1715334987576" duration="2646000" />
+      <workItem from="1715927931038" duration="1095000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -439,14 +461,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00109" summary="2/21/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1708562525225</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1708562525225</updated>
     </task>
     <task id="LOCAL-00110" summary="2/21/2024 by yummy">
       <option name="closed" value="true" />
@@ -800,7 +814,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713059577047</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="4/29/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1714358562504</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1714358562504</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -818,7 +840,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2/20/2024 by yummy" />
     <MESSAGE value="2/21/2024 by yummy" />
     <MESSAGE value="2/22/2024 by yummy" />
     <MESSAGE value="2/23/2024 by yummy" />
@@ -843,7 +864,8 @@
     <MESSAGE value="3/29/2024 by yummy" />
     <MESSAGE value="4/3/2024 by yummy" />
     <MESSAGE value="4/6/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="4/6/2024 by yummy" />
+    <MESSAGE value="4/29/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="4/29/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
