@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="5/16/2024 by yummy">
-      <change beforePath="$PROJECT_DIR$/src/Leetcode958.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode958.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xhs/MaxExcellence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xhs/MaximumExcellence.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +42,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:jerryyummy/java_algorithm.git",
-    "accountId": "93feb997-432e-4879-8c9e-809e9be34f91"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:jerryyummy/java_algorithm.git&quot;,
+    &quot;accountId&quot;: &quot;93feb997-432e-4879-8c9e-809e9be34f91&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
@@ -61,6 +64,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -427,7 +431,12 @@
       <workItem from="1714354918774" duration="3758000" />
       <workItem from="1715246468746" duration="2533000" />
       <workItem from="1715334987576" duration="2646000" />
-      <workItem from="1715927931038" duration="1396000" />
+      <workItem from="1715927931038" duration="2514000" />
+      <workItem from="1715931589729" duration="174000" />
+      <workItem from="1715937940957" duration="1272000" />
+      <workItem from="1715942970127" duration="3082000" />
+      <workItem from="1716046521644" duration="622000" />
+      <workItem from="1716082632273" duration="5765000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -456,14 +465,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00111" summary="2/21/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1708567531664</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1708567531664</updated>
     </task>
     <task id="LOCAL-00112" summary="2/21/2024 by yummy">
       <option name="closed" value="true" />
@@ -817,7 +818,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715929656361</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="5/16/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1715930192582</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1715930192582</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
