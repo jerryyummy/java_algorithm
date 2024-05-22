@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="5/16/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/xhs/MaxExcellence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xhs/MaximumExcellence.jpg" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="5/19/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode256.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode265.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowflake/ColoringHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowflake/coloringhouse1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowflake/coloringhouse2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowflake/coloringhouse3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowflake/coloringhouse4.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +62,16 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="1hkuNLICP7JhtpGAKbRmrw7ZfSO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -437,6 +445,8 @@
       <workItem from="1715942970127" duration="3082000" />
       <workItem from="1716046521644" duration="622000" />
       <workItem from="1716082632273" duration="5765000" />
+      <workItem from="1716120926865" duration="3170000" />
+      <workItem from="1716375425702" duration="9884000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -465,14 +475,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00112" summary="2/21/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1708573811343</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1708573811343</updated>
     </task>
     <task id="LOCAL-00113" summary="2/21/2024 by yummy">
       <option name="closed" value="true" />
@@ -826,7 +828,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715930192582</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="5/19/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1716125493216</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1716125493216</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -844,7 +854,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2/22/2024 by yummy" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2/23/2024 by yummy" />
     <MESSAGE value="2/24/2024 by yummy" />
     <MESSAGE value="2/26/2024 by yummy" />
@@ -869,7 +879,8 @@
     <MESSAGE value="4/6/2024 by yummy" />
     <MESSAGE value="4/29/2024 by yummy" />
     <MESSAGE value="5/16/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/16/2024 by yummy" />
+    <MESSAGE value="5/19/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/19/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
