@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="5/19/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode256.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode265.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/ColoringHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/coloringhouse1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/coloringhouse2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/coloringhouse3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/coloringhouse4.JPG" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="5/22/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode1921.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode646.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode649.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,30 +65,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/youyun/Documents/java-project/java_algorithm/src/xhs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.25976562",
-    "project.structure.side.proportion": "0.20603015",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.scopes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm/src/xhs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.25976562&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20603015&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/xhs" />
@@ -446,7 +442,8 @@
       <workItem from="1716046521644" duration="622000" />
       <workItem from="1716082632273" duration="5765000" />
       <workItem from="1716120926865" duration="3170000" />
-      <workItem from="1716375425702" duration="9884000" />
+      <workItem from="1716375425702" duration="10060000" />
+      <workItem from="1716477261669" duration="2835000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -475,14 +472,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00113" summary="2/21/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1708595356054</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1708595356054</updated>
     </task>
     <task id="LOCAL-00114" summary="2/22/2024 by yummy">
       <option name="closed" value="true" />
@@ -836,7 +825,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716125493216</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="5/22/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1716390027856</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1716390027856</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -855,7 +852,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2/23/2024 by yummy" />
     <MESSAGE value="2/24/2024 by yummy" />
     <MESSAGE value="2/26/2024 by yummy" />
     <MESSAGE value="2/27/2024 by yummy" />
@@ -880,7 +876,8 @@
     <MESSAGE value="4/29/2024 by yummy" />
     <MESSAGE value="5/16/2024 by yummy" />
     <MESSAGE value="5/19/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/19/2024 by yummy" />
+    <MESSAGE value="5/22/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/22/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
