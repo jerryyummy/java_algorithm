@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="5/22/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode1921.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode646.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode649.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="5/23/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode1473.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3164.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3165.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowflake/MaxUpgradedServers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowflake/numOfWays.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/snowflake/ColoringHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowflake/ColoringHouse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +73,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ColoringHouse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode3165.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -98,7 +105,20 @@
       <recent name="$PROJECT_DIR$/src/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ColoringHouse">
+    <configuration name="ColoringHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snowflake.ColoringHouse" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snowflake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="java_algorithm" />
@@ -106,15 +126,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroPurchaser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="shopee.HeroPurchaser" />
+    <configuration name="Leetcode3165" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode3165" />
       <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="shopee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,19 +136,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java_algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShapeIdentifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mayi.ShapeIdentifier" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mayi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ColoringHouse" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Leetcode3165" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.SubstringWithoutSubsequence" />
-        <item itemvalue="Application.HeroPurchaser" />
-        <item itemvalue="Application.ShapeIdentifier" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +444,13 @@
       <workItem from="1716082632273" duration="5765000" />
       <workItem from="1716120926865" duration="3170000" />
       <workItem from="1716375425702" duration="10060000" />
-      <workItem from="1716477261669" duration="2835000" />
+      <workItem from="1716477261669" duration="2889000" />
+      <workItem from="1716690797290" duration="10415000" />
+      <workItem from="1716717231762" duration="68000" />
+      <workItem from="1716799944566" duration="3172000" />
+      <workItem from="1716965498535" duration="2314000" />
+      <workItem from="1717080347976" duration="5622000" />
+      <workItem from="1717207101530" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -472,14 +479,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00114" summary="2/22/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1708595380612</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1708595380612</updated>
     </task>
     <task id="LOCAL-00115" summary="2/22/2024 by yummy">
       <option name="closed" value="true" />
@@ -833,7 +832,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716390027856</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="5/23/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1716480144159</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1716480144159</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -852,7 +859,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2/24/2024 by yummy" />
     <MESSAGE value="2/26/2024 by yummy" />
     <MESSAGE value="2/27/2024 by yummy" />
     <MESSAGE value="2/28/2024 by yummy" />
@@ -877,7 +883,8 @@
     <MESSAGE value="5/16/2024 by yummy" />
     <MESSAGE value="5/19/2024 by yummy" />
     <MESSAGE value="5/22/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/22/2024 by yummy" />
+    <MESSAGE value="5/23/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/23/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
