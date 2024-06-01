@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/1/2024 by yummy for snowflake" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/1/2024 by yummy for snowflake">
+      <change afterPath="$PROJECT_DIR$/src/snowflake/Leetcode1235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowflake/NumWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/snowflake/numOfWays.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowflake/numWays.jpg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -440,7 +445,7 @@
       <workItem from="1716799944566" duration="3172000" />
       <workItem from="1716965498535" duration="2314000" />
       <workItem from="1717080347976" duration="5622000" />
-      <workItem from="1717207101530" duration="2553000" />
+      <workItem from="1717207101530" duration="4133000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -469,22 +474,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00118" summary="2/23/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1708758042767</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1708758042767</updated>
-    </task>
-    <task id="LOCAL-00119" summary="2/24/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1708801651935</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1708801651935</updated>
     </task>
     <task id="LOCAL-00120" summary="2/24/2024 by yummy">
       <option name="closed" value="true" />
@@ -830,7 +819,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717209658926</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="6/1/2024 by yummy for snowflake">
+      <option name="closed" value="true" />
+      <created>1717209965643</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1717209965643</updated>
+    </task>
+    <task id="LOCAL-00164" summary="6/1/2024 by yummy for snowflake">
+      <option name="closed" value="true" />
+      <created>1717209976316</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1717209976316</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

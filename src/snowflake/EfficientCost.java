@@ -2,6 +2,9 @@ package snowflake;
 
 import java.util.Arrays;
 
+//用dp就行，n*threshold的时间复杂度。对于每个位置i， 遍历j 属于i到i+threshold之间的所有值，
+// i到j之间的最大值可以在遍历的时候顺便求出来，
+// 然后 cost_i = min_j (cost_j + 最大值@J )，总共n个状态，每个状态花费threshold的时间
 public class EfficientCost {
 
   // 动态规划函数

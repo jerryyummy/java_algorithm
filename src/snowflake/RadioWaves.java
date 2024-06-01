@@ -2,6 +2,8 @@ package snowflake;
 
 import java.util.*;
 
+//经典的树上俩点最长距离的问题，就是多加了一个constraint，
+// 一遍dfs即可把通过任意节点的最长路径全算出来，其中的最大值就是结果了。线性时间复杂度
 public class RadioWaves {
   private HashMap<Integer, List<Integer>> buildGraph(int network_nodes, int[] network_from, int[] network_to) {
     HashMap<Integer, List<Integer>> graph = new HashMap<>();
