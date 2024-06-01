@@ -1,0 +1,28 @@
+# IDE Related
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+*.cache/
+*.log
+
+# Maven and Gradle
+target/
+out/
+build/
+generated/
+bin/
+release/
+dist/
+dependency-maven-plugin-markers/
+
+# IntelliJ IDEA
+.idea/*
+!.idea/.name
+!.idea/modules.xml
+!.idea/workspace.xml
+!.idea/inspectionProfiles/*
+!.idea/runConfigurations/*
+!.idea/encodings.xml
+!.idea/vcs.xml
