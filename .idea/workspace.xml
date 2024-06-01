@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/1/2024 by yummy for snowflake">
-      <change afterPath="$PROJECT_DIR$/src/snowflake/Leetcode1235.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/NumWays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snowflake/numOfWays.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowflake/numWays.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/snowflake/EfficientCost.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/snowflake/EfficientCost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/snowflake/RadioWaves$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/snowflake/RadioWaves.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/snowflake/RadioWaves.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/snowflake/NumWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowflake/NumWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/snowflake/RadioWaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowflake/RadioWaves.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +73,8 @@
     "Application.ColoringHouse.executor": "Run",
     "Application.Leetcode3165.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.NumWays.executor": "Run",
+    "Application.RadioWaves.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -100,7 +104,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ColoringHouse">
+  <component name="RunManager" selected="Application.NumWays">
     <configuration name="ColoringHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snowflake.ColoringHouse" />
       <module name="java_algorithm" />
@@ -110,13 +114,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo" />
-      <module name="java_algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,12 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubstringWithoutSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Intelligent_information.SubstringWithoutSubsequence" />
+    <configuration name="NumWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snowflake.NumWays" />
       <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Intelligent_information.*" />
+          <option name="PATTERN" value="snowflake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioWaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="snowflake.RadioWaves" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snowflake.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumWays" />
+        <item itemvalue="Application.RadioWaves" />
         <item itemvalue="Application.ColoringHouse" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Leetcode3165" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.SubstringWithoutSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +455,7 @@
       <workItem from="1716799944566" duration="3172000" />
       <workItem from="1716965498535" duration="2314000" />
       <workItem from="1717080347976" duration="5622000" />
-      <workItem from="1717207101530" duration="4133000" />
+      <workItem from="1717207101530" duration="21118000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -474,14 +484,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00120" summary="2/24/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1708804621511</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1708804621511</updated>
     </task>
     <task id="LOCAL-00121" summary="2/24/2024 by yummy">
       <option name="closed" value="true" />
@@ -835,7 +837,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717209976316</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="6/1/2024 by yummy for snowflake">
+      <option name="closed" value="true" />
+      <created>1717211562348</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1717211562348</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -888,6 +898,11 @@
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/snowflake/RadioWaves.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
