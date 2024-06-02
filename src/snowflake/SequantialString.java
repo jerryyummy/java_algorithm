@@ -21,7 +21,7 @@ public class SequantialString {
     }
     int countMatch = 0;
     for (int i = 0; i < s.length(); i++) {
-      s_map.put(s.charAt(i),s_map.getOrDefault(s.charAt(i),0)+1);
+          s_map.put(s.charAt(i),s_map.getOrDefault(s.charAt(i),0)+1);
       if(!t_map.containsKey(s.charAt(i))) continue;
       else if (s_map.get(s.charAt(i))>t_map.get(s.charAt(i))){
         continue;
