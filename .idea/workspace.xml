@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/1/2024 by yummy for snowflake">
-      <change afterPath="$PROJECT_DIR$/src/snowflake/SpecialStringPermutation.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/2/2024 by yummy for snowflake">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/snowflake/AirportLimousine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowflake/AirportLimousine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snowflake/Leetcode1235.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowflake/Leetcode1235.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snowflake/SequantialString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowflake/SequantialString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +105,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpecialStringPermutation">
+  <component name="RunManager" selected="Application.AirportLimousine">
     <configuration name="AirportLimousine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snowflake.AirportLimousine" />
       <module name="java_algorithm" />
@@ -199,9 +196,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AirportLimousine" />
         <item itemvalue="Application.SpecialStringPermutation" />
         <item itemvalue="Application.SequantialString" />
-        <item itemvalue="Application.AirportLimousine" />
         <item itemvalue="Application.TaskMaster" />
         <item itemvalue="Application.MaxUpgradedServers" />
       </list>
@@ -471,7 +468,7 @@
       <workItem from="1716799944566" duration="3172000" />
       <workItem from="1716965498535" duration="2314000" />
       <workItem from="1717080347976" duration="5622000" />
-      <workItem from="1717207101530" duration="37093000" />
+      <workItem from="1717207101530" duration="38536000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -500,14 +497,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00123" summary="2/26/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1709011329614</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1709011329614</updated>
     </task>
     <task id="LOCAL-00124" summary="2/26/2024 by yummy">
       <option name="closed" value="true" />
@@ -861,7 +850,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717255969577</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="6/2/2024 by yummy for snowflake">
+      <option name="closed" value="true" />
+      <created>1717326976834</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1717326976834</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -880,7 +877,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2/27/2024 by yummy" />
     <MESSAGE value="2/28/2024 by yummy" />
     <MESSAGE value="2/29/2024 by yummy" />
     <MESSAGE value="3/1/2024 by yummy" />
@@ -905,7 +901,8 @@
     <MESSAGE value="5/22/2024 by yummy" />
     <MESSAGE value="5/23/2024 by yummy" />
     <MESSAGE value="6/1/2024 by yummy for snowflake" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/1/2024 by yummy for snowflake" />
+    <MESSAGE value="6/2/2024 by yummy for snowflake" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/2/2024 by yummy for snowflake" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
