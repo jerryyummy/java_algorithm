@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/2/2024 by yummy for snowflake">
+      <change afterPath="$PROJECT_DIR$/src/huawei/IMG_1374.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/huawei/RiverCrossingProblemSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tt/MaxNumberLessThanN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snowflake/AirportLimousine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowflake/AirportLimousine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +74,7 @@
     "Application.ColoringHouse.executor": "Run",
     "Application.Leetcode3165.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MaxNumberLessThanN.executor": "Run",
     "Application.MaxUpgradedServers.executor": "Run",
     "Application.NumWays.executor": "Run",
     "Application.RadioWaves.executor": "Run",
@@ -82,7 +87,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/youyun/Documents/java-project/java_algorithm/src/snowflake",
+    "last_opened_file_path": "/Users/youyun/Documents/java-project/java_algorithm/src/huawei",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -98,14 +103,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/huawei" />
       <recent name="$PROJECT_DIR$/src/snowflake" />
       <recent name="$PROJECT_DIR$/src/xhs" />
       <recent name="$PROJECT_DIR$/src/mihoyo" />
       <recent name="$PROJECT_DIR$/src/meituan" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AirportLimousine">
+  <component name="RunManager" selected="Application.MaxNumberLessThanN">
     <configuration name="AirportLimousine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snowflake.AirportLimousine" />
       <module name="java_algorithm" />
@@ -119,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxUpgradedServers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snowflake.MaxUpgradedServers" />
+    <configuration name="MaxNumberLessThanN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tt.MaxNumberLessThanN" />
       <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="snowflake.*" />
+          <option name="PATTERN" value="tt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxNumberLessThanN" />
         <item itemvalue="Application.AirportLimousine" />
         <item itemvalue="Application.SpecialStringPermutation" />
         <item itemvalue="Application.SequantialString" />
         <item itemvalue="Application.TaskMaster" />
-        <item itemvalue="Application.MaxUpgradedServers" />
       </list>
     </recent_temporary>
   </component>
@@ -468,7 +473,10 @@
       <workItem from="1716799944566" duration="3172000" />
       <workItem from="1716965498535" duration="2314000" />
       <workItem from="1717080347976" duration="5622000" />
-      <workItem from="1717207101530" duration="38536000" />
+      <workItem from="1717207101530" duration="40500000" />
+      <workItem from="1717498636753" duration="2974000" />
+      <workItem from="1717585672227" duration="2129000" />
+      <workItem from="1717638436932" duration="5740000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -497,14 +505,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00124" summary="2/26/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1709017850503</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1709017850503</updated>
     </task>
     <task id="LOCAL-00125" summary="2/27/2024 by yummy">
       <option name="closed" value="true" />
@@ -858,7 +858,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717326976834</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="6/2/2024 by yummy for snowflake">
+      <option name="closed" value="true" />
+      <created>1717328715748</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1717328715748</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -911,11 +919,6 @@
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/snowflake/RadioWaves.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
