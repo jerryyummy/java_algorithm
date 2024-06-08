@@ -2,7 +2,7 @@ package huawei;
 
 import java.util.Scanner;
 
-public class RiverCrossingProblemSolver {
+public class OpeningUpWaterways {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
