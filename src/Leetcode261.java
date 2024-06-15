@@ -1,10 +1,10 @@
 public class Leetcode261 {
     private int find(int[] representative, int vertex) {
-        if (vertex == representative[vertex]) {
-            return vertex;
+        while (vertex != representative[vertex]) {
+            vertex = representative[vertex];
         }
 
-        return representative[vertex] = find(representative, representative[vertex]);
+        return representative[vertex];
     }
 
     private boolean combine(int[] representative, int[] size, int vertex1, int vertex2) {
