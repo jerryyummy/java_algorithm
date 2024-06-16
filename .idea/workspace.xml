@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/12/2024 by yummy for snowflake">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode752.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/15/2024 by yummy for snowflake">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3186.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode261.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode261.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,45 +66,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AirportLimousine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ColoringHouse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JobExcution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Leetcode3165.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaxNumberLessThanN.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxUpgradedServers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumSegments.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumWays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OpeningUpWaterways.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RadioWaves.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SequantialString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpecialStringPermutation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskMaster.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskSchedule.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadCount.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm/src/snowflake&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.25976562&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.20603015&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AirportLimousine.executor": "Run",
+    "Application.ColoringHouse.executor": "Run",
+    "Application.JobExcution.executor": "Run",
+    "Application.Leetcode3165.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MaxNumberLessThanN.executor": "Run",
+    "Application.MaxUpgradedServers.executor": "Run",
+    "Application.MinimumSegments.executor": "Run",
+    "Application.NumWays.executor": "Run",
+    "Application.OpeningUpWaterways.executor": "Run",
+    "Application.RadioWaves.executor": "Run",
+    "Application.SequantialString.executor": "Run",
+    "Application.SpecialStringPermutation.executor": "Run",
+    "Application.TaskMaster.executor": "Run",
+    "Application.TaskSchedule.executor": "Run",
+    "Application.ThreadCount.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/youyun/Documents/java-project/java_algorithm/src/snowflake",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.25976562",
+    "project.structure.side.proportion": "0.20603015",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.scopes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/snowflake" />
@@ -111,7 +114,7 @@
       <recent name="$PROJECT_DIR$/src/meituan" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JobExcution">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="JobExcution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snowflake.JobExcution" />
       <module name="java_algorithm" />
@@ -196,19 +199,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.JobExcution" />
         <item itemvalue="Application.ThreadCount" />
         <item itemvalue="Application.TaskSchedule" />
         <item itemvalue="Application.MinimumSegments" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
       </set>
     </attachedChunks>
   </component>
@@ -476,6 +479,8 @@
       <workItem from="1717898770712" duration="7328000" />
       <workItem from="1718171626125" duration="11033000" />
       <workItem from="1718416021928" duration="2687000" />
+      <workItem from="1718425847862" duration="4576000" />
+      <workItem from="1718505319214" duration="6483000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -504,22 +509,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00134" summary="3/3/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1709495569268</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1709495569269</updated>
-    </task>
-    <task id="LOCAL-00135" summary="3/3/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1709496009343</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1709496009343</updated>
     </task>
     <task id="LOCAL-00136" summary="3/3/2024 by yummy">
       <option name="closed" value="true" />
@@ -865,7 +854,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718213927768</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="6/15/2024 by yummy for snowflake">
+      <option name="closed" value="true" />
+      <created>1718440235972</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1718440235973</updated>
+    </task>
+    <task id="LOCAL-00180" summary="6/15/2024 by yummy for snowflake">
+      <option name="closed" value="true" />
+      <created>1718442651900</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1718442651900</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -896,7 +901,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="3/3/2024 by yummy" />
     <MESSAGE value="3/4/2024 by yummy" />
     <MESSAGE value="3/5/2024 by yummy" />
     <MESSAGE value="3/6/2024 by yummy" />
@@ -921,7 +925,8 @@
     <MESSAGE value="6/8/2024 by yummy for snowflake" />
     <MESSAGE value="6/9/2024 by yummy for snowflake" />
     <MESSAGE value="6/12/2024 by yummy for snowflake" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/12/2024 by yummy for snowflake" />
+    <MESSAGE value="6/15/2024 by yummy for snowflake" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/15/2024 by yummy for snowflake" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
