@@ -33,7 +33,6 @@ public class Leetcode465 {
         list.set(i,cur+next);
         min = Math.min(min,dfs(k+1,list)+1);
         list.set(i,next);
-        if (cur+next==0) break;
       }
     }
     return min;

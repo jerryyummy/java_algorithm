@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/23/2024 by yummy for snowflake">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode1530.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snowflake/AirportLimousine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowflake/AirportLimousine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snowflake/UnequalElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowflake/UnequalElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode465.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode465.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,46 +64,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AirportLimousine.executor": "Run",
-    "Application.ColoringHouse.executor": "Run",
-    "Application.JobExcution.executor": "Run",
-    "Application.Leetcode3165.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MaxNumberLessThanN.executor": "Run",
-    "Application.MaxUpgradedServers.executor": "Run",
-    "Application.MinimumSegments.executor": "Run",
-    "Application.NumWays.executor": "Run",
-    "Application.OpeningUpWaterways.executor": "Run",
-    "Application.RadioWaves.executor": "Run",
-    "Application.SequantialString.executor": "Run",
-    "Application.SpecialStringPermutation.executor": "Run",
-    "Application.TaskMaster.executor": "Run",
-    "Application.TaskSchedule.executor": "Run",
-    "Application.ThreadCount.executor": "Run",
-    "Application.UnequalElements.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/youyun/Documents/java-project/java_algorithm/src/snowflake",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.25976562",
-    "project.structure.side.proportion": "0.20603015",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.scopes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AirportLimousine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ColoringHouse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JobExcution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode3165.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxNumberLessThanN.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxUpgradedServers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumSegments.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumWays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OpeningUpWaterways.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RadioWaves.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SequantialString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpecialStringPermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskMaster.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskSchedule.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnequalElements.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm/src/snowflake&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.25976562&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20603015&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/snowflake" />
@@ -483,6 +483,7 @@
       <workItem from="1718721471260" duration="3447000" />
       <workItem from="1719109727752" duration="10426000" />
       <workItem from="1719191152563" duration="15059000" />
+      <workItem from="1719329227941" duration="2385000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -511,14 +512,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00140" summary="3/6/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1709756301167</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1709756301167</updated>
     </task>
     <task id="LOCAL-00141" summary="3/7/2024 by yummy">
       <option name="closed" value="true" />
@@ -872,7 +865,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719141729900</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="6/23/2024 by yummy for snowflake">
+      <option name="closed" value="true" />
+      <created>1719329252391</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1719329252392</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

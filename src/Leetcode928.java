@@ -17,6 +17,7 @@ public class Leetcode928 {
     }
     return count;
   }
+
   public int minMalwareSpread(int[][] graph, int[] initial) {
     int n = graph.length, ans = initial[0], max = 0;
     boolean[] infected = new boolean[n];
