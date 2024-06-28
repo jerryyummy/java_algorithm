@@ -5,37 +5,30 @@ import java.util.Stack;
 public class Leetcode394 {
   public String decodeString(String s) {
     Stack<Integer> numStack = new Stack<>();
-    Stack<String> strStack = new Stack<>();
+    Stack<StringBuilder> strStack = new Stack<>();
+    StringBuilder currentString = new StringBuilder();
+    int currentNumber = 0;
 
-    for (int i = 0; i < s.length(); i++) {
-      String temp = s.substring(i,i+1);
-      if (Character.isDigit(s.charAt(i))) {//如果当前是数字
-        int number = Character.getNumericValue(s.charAt(i));
-        while(Character.isDigit(s.charAt(i+1))){//持续获取数字
-            number = number*10+Character.getNumericValue(s.charAt(i+1));
-          i++;
+    for(char c : s.toCharArray()) {
+      if (Character.isDigit(c)) {
+        currentNumber = currentNumber * 10 + Character.getNumericValue(c);
+      } else if (c == '[') {
+        numStack.push(currentNumber);
+        strStack.push(currentString);
+        currentString = new StringBuilder();
+        currentNumber = 0;
+      } else if (c == ']') {
+        StringBuilder temp = currentString;
+        currentString = strStack.pop();
+        int repeatTimes = numStack.pop();
+        for (int i = 0; i < repeatTimes; i++) {
+          currentString.append(temp);
         }
-        numStack.push(number);
-      } else if(!temp.equals("]")) {
-        strStack.push(temp);
       } else {
-        StringBuilder cur = new StringBuilder();
-        while (!strStack.isEmpty() && !Objects.equals(strStack.peek(), "[")){
-          cur.insert(0, strStack.pop());
-        }
-        strStack.pop();
-        StringBuilder curr = new StringBuilder();
-        int repeat = numStack.pop();
-        for (int j = 0; j < repeat; j++) {
-          curr.append(cur);
-        }
-        strStack.push(curr.toString());
+        currentString.append(c);
       }
     }
-    StringBuilder res = new StringBuilder();
-    while (!strStack.isEmpty()){
-      res.insert(0, strStack.pop());
-    }
-    return res.toString();
+
+    return currentString.toString();
   }
 }

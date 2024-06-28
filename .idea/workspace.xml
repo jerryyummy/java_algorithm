@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/23/2024 by yummy for snowflake">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode1530.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/25/2024 by yummy for snowflake">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode2290.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode301.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tt/RemoveInvalidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode465.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode465.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode394.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode394.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode465.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode465.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode928.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Leetcode928.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leetcode394.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode394.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +83,7 @@
     &quot;Application.NumWays.executor&quot;: &quot;Run&quot;,
     &quot;Application.OpeningUpWaterways.executor&quot;: &quot;Run&quot;,
     &quot;Application.RadioWaves.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveInvalidParentheses.executor&quot;: &quot;Run&quot;,
     &quot;Application.SequantialString.executor&quot;: &quot;Run&quot;,
     &quot;Application.SpecialStringPermutation.executor&quot;: &quot;Run&quot;,
     &quot;Application.TaskMaster.executor&quot;: &quot;Run&quot;,
@@ -113,7 +119,7 @@
       <recent name="$PROJECT_DIR$/src/meituan" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UnequalElements">
+  <component name="RunManager" selected="Application.RemoveInvalidParentheses">
     <configuration name="AirportLimousine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snowflake.AirportLimousine" />
       <module name="java_algorithm" />
@@ -147,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snowflake.ThreadCount" />
+    <configuration name="RemoveInvalidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tt.RemoveInvalidParentheses" />
       <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="snowflake.*" />
+          <option name="PATTERN" value="tt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveInvalidParentheses" />
         <item itemvalue="Application.UnequalElements" />
         <item itemvalue="Application.AirportLimousine" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.JobExcution" />
-        <item itemvalue="Application.ThreadCount" />
       </list>
     </recent_temporary>
   </component>
@@ -483,7 +489,11 @@
       <workItem from="1718721471260" duration="3447000" />
       <workItem from="1719109727752" duration="10426000" />
       <workItem from="1719191152563" duration="15059000" />
-      <workItem from="1719329227941" duration="2385000" />
+      <workItem from="1719329227941" duration="24709000" />
+      <workItem from="1719450040705" duration="3782000" />
+      <workItem from="1719470370127" duration="8941000" />
+      <workItem from="1719542365639" duration="3357000" />
+      <workItem from="1719567045437" duration="548000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -512,22 +522,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00141" summary="3/7/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1709882368218</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1709882368218</updated>
-    </task>
-    <task id="LOCAL-00142" summary="3/8/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1709970080051</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1709970080051</updated>
     </task>
     <task id="LOCAL-00143" summary="3/9/2024 by yummy">
       <option name="closed" value="true" />
@@ -873,7 +867,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719329252392</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="6/25/2024 by yummy for snowflake">
+      <option name="closed" value="true" />
+      <created>1719389474318</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1719389474318</updated>
+    </task>
+    <task id="LOCAL-00187" summary="6/25/2024 by yummy for snowflake">
+      <option name="closed" value="true" />
+      <created>1719420359147</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1719420359147</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -904,7 +914,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="3/7/2024 by yummy" />
     <MESSAGE value="3/8/2024 by yummy" />
     <MESSAGE value="3/9/2024 by yummy" />
     <MESSAGE value="3/15/2024 by yummy" />
@@ -929,7 +938,8 @@
     <MESSAGE value="6/16/2024 by yummy for snowflake" />
     <MESSAGE value="6/18/2024 by yummy for snowflake" />
     <MESSAGE value="6/23/2024 by yummy for snowflake" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/23/2024 by yummy for snowflake" />
+    <MESSAGE value="6/25/2024 by yummy for snowflake" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/25/2024 by yummy for snowflake" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
