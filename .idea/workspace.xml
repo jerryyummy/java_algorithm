@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/27/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode1062.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode1257.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode2050.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowflake/ClosetRandomPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowflake/ClosetRandomPoints.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snowflake/ClosetRandomPoints2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snowflake/Unequal Elements.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/snowflake/Unequal Elements.JPG" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +74,7 @@
     "Application.AirportLimousine.executor": "Run",
     "Application.ColoringHouse.executor": "Run",
     "Application.JobExcution.executor": "Run",
+    "Application.Leetcode2050.executor": "Debug",
     "Application.Leetcode3165.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaxNumberLessThanN.executor": "Run",
@@ -113,7 +119,7 @@
       <recent name="$PROJECT_DIR$/src/meituan" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveInvalidParentheses">
+  <component name="RunManager" selected="Application.Leetcode2050">
     <configuration name="AirportLimousine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snowflake.AirportLimousine" />
       <module name="java_algorithm" />
@@ -127,15 +133,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JobExcution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snowflake.JobExcution" />
+    <configuration name="Leetcode2050" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode2050" />
       <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="snowflake.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode2050" />
         <item itemvalue="Application.RemoveInvalidParentheses" />
         <item itemvalue="Application.UnequalElements" />
         <item itemvalue="Application.AirportLimousine" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.JobExcution" />
       </list>
     </recent_temporary>
   </component>
@@ -488,7 +488,7 @@
       <workItem from="1719470370127" duration="8941000" />
       <workItem from="1719542365639" duration="3357000" />
       <workItem from="1719567045437" duration="1303000" />
-      <workItem from="1719568381542" duration="495000" />
+      <workItem from="1719568381542" duration="8002000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -517,14 +517,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00144" summary="3/15/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1710567270822</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1710567270823</updated>
     </task>
     <task id="LOCAL-00145" summary="3/19/2024 by yummy">
       <option name="closed" value="true" />
@@ -878,7 +870,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719567989403</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="6/27/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1719569046087</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1719569046088</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -943,6 +943,11 @@
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Leetcode2050.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
