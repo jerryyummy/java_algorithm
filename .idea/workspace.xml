@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/27/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode1062.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode1257.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode2050.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/ClosetRandomPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/ClosetRandomPoints.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/snowflake/ClosetRandomPoints2.jpg" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/29/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3201.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3203.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode926.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
     "Application.JobExcution.executor": "Run",
     "Application.Leetcode2050.executor": "Debug",
     "Application.Leetcode3165.executor": "Run",
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "Application.MaxNumberLessThanN.executor": "Run",
     "Application.MaxUpgradedServers.executor": "Run",
     "Application.MinimumSegments.executor": "Run",
@@ -119,7 +118,7 @@
       <recent name="$PROJECT_DIR$/src/meituan" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode2050">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AirportLimousine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snowflake.AirportLimousine" />
       <module name="java_algorithm" />
@@ -198,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Leetcode2050" />
         <item itemvalue="Application.RemoveInvalidParentheses" />
         <item itemvalue="Application.UnequalElements" />
         <item itemvalue="Application.AirportLimousine" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -488,7 +487,8 @@
       <workItem from="1719470370127" duration="8941000" />
       <workItem from="1719542365639" duration="3357000" />
       <workItem from="1719567045437" duration="1303000" />
-      <workItem from="1719568381542" duration="8002000" />
+      <workItem from="1719568381542" duration="10976000" />
+      <workItem from="1719714649883" duration="7311000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -517,14 +517,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00145" summary="3/19/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1710893567973</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1710893567974</updated>
     </task>
     <task id="LOCAL-00146" summary="3/20/2024 by yummy">
       <option name="closed" value="true" />
@@ -878,7 +870,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719569046088</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="6/29/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1719634440887</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1719634440887</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -909,7 +909,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="3/9/2024 by yummy" />
     <MESSAGE value="3/15/2024 by yummy" />
     <MESSAGE value="3/19/2024 by yummy" />
     <MESSAGE value="3/20/2024 by yummy" />
@@ -934,7 +933,8 @@
     <MESSAGE value="6/23/2024 by yummy for snowflake" />
     <MESSAGE value="6/25/2024 by yummy for snowflake" />
     <MESSAGE value="6/27/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/27/2024 by yummy" />
+    <MESSAGE value="6/29/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="6/29/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -943,11 +943,6 @@
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Leetcode2050.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
