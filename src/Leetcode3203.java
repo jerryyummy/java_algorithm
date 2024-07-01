@@ -36,7 +36,7 @@ public class Leetcode3203 {
         }
       }
       d++;
-    }
+    } 
 
     return d;
   }
