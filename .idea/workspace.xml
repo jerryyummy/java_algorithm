@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="6/30/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode159.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="7/1/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode1642.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode2143.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leetcode3203.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leetcode3203.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +71,7 @@
     "Application.ColoringHouse.executor": "Run",
     "Application.JobExcution.executor": "Run",
     "Application.Leetcode159.executor": "Run",
+    "Application.Leetcode1642.executor": "Run",
     "Application.Leetcode2050.executor": "Debug",
     "Application.Leetcode3165.executor": "Run",
     "Application.Main.executor": "Debug",
@@ -99,7 +100,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.25976562",
     "project.structure.side.proportion": "0.20603015",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -116,9 +117,16 @@
       <recent name="$PROJECT_DIR$/src/meituan" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode159">
+  <component name="RunManager" selected="Application.Leetcode1642">
     <configuration name="Leetcode159" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode159" />
+      <module name="java_algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode1642" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leetcode1642" />
       <module name="java_algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,19 +159,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnequalElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="snowflake.UnequalElements" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="snowflake.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="SwaggerCodegen" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="customTemplatesPath" value="" />
@@ -189,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode1642" />
         <item itemvalue="Application.Leetcode159" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Leetcode2050" />
         <item itemvalue="Application.RemoveInvalidParentheses" />
-        <item itemvalue="Application.UnequalElements" />
       </list>
     </recent_temporary>
   </component>
@@ -481,7 +476,8 @@
       <workItem from="1719567045437" duration="1303000" />
       <workItem from="1719568381542" duration="10976000" />
       <workItem from="1719714649883" duration="8973000" />
-      <workItem from="1719815239554" duration="1941000" />
+      <workItem from="1719815239554" duration="4865000" />
+      <workItem from="1719889274329" duration="6047000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -510,14 +506,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00147" summary="3/23/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1711180539415</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1711180539416</updated>
     </task>
     <task id="LOCAL-00148" summary="3/23/2024 by yummy">
       <option name="closed" value="true" />
@@ -871,7 +859,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719723156029</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="7/1/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1719821944732</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1719821944732</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -902,7 +898,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="3/19/2024 by yummy" />
     <MESSAGE value="3/20/2024 by yummy" />
     <MESSAGE value="3/23/2024 by yummy" />
     <MESSAGE value="3/29/2024 by yummy" />
@@ -927,7 +922,8 @@
     <MESSAGE value="6/27/2024 by yummy" />
     <MESSAGE value="6/29/2024 by yummy" />
     <MESSAGE value="6/30/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/30/2024 by yummy" />
+    <MESSAGE value="7/1/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/1/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
