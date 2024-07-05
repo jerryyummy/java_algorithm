@@ -6,56 +6,55 @@ import java.util.Comparator;
 import java.util.List;
 
 public class MinimumSegments {
+  static class IntervalComparator implements Comparator<int[]> {
+    @Override
+    public int compare(int[] a, int[] b) {
+      return (a[0] != b[0]) ? Integer.compare(a[0], b[0]) : Integer.compare(a[1], b[1]);
+    }
+  }
+
   public static int minimumDivision(List<Integer> a, List<Integer> b, int k) {
+    // Write your code here
     int n = a.size();
-    int[][] intervals = new int[n][2];
+    List<int[]> intervals = new ArrayList<>();
+
+    // 合并 a 和 b 列表到 intervals 列表中
     for (int i = 0; i < n; i++) {
-      intervals[i][0] = a.get(i);
-      intervals[i][1] = b.get(i);
+      intervals.add(new int[]{a.get(i), b.get(i)});
     }
 
-    Arrays.sort(intervals, new Comparator<int[]>() {
+    intervals.sort(new IntervalComparator()); // sort based on start - O(NlogN)
 
-      @Override
-      public int compare(int[] o1, int[] o2) {
-        if (o1[0] != o2[0]) {
-          return o1[0] - o2[0];
-        }else {
-          return o1[1] - o2[1];
-        }
+    // merge intervals - O(N)
+    List<int[]> mergedIntervals = new ArrayList<>();
+    int[] cur = intervals.get(0);
+    for (int i = 1; i < n; i++) {
+      if (intervals.get(i)[0] <= cur[1]) {
+        cur[1] = Math.max(cur[1], intervals.get(i)[1]);
+      } else {
+        mergedIntervals.add(cur);
+        cur = intervals.get(i);
       }
-    });
-
-    int max = intervals[n-1][1];
-    int[] dp = new int[max+1];
-    for (int i = intervals[0][0]; i <= intervals[0][1]; i++) {
-      dp[i] = 1;
     }
-    int cur = intervals[0][1];
-    for (int i = 1; i < intervals.length; i++) {
-      if (intervals[i][0] <= cur) {
-        for (int j = cur+1; j <= intervals[i][1] ; j++) {
-          dp[j] = dp[cur];
-        }
-      }else{
-        for (int j = cur+1; j <= intervals[i][0]; j++) {
-          dp[j] = dp[cur];
-        }
-        cur = intervals[i][0];
-        for (int j = cur+1; j <= intervals[i][1]; j++) {
-          dp[j] = dp[cur]+1;
-        }
+    mergedIntervals.add(cur);
+
+    n = mergedIntervals.size(); // we have n distinct intervals now
+
+    // For each interval, check how many can it cover with extra k - O(N)
+    // 2 pointer approach
+    int i = 0, j = 0;
+    int ans = n;
+    while (j < n) {
+      if (mergedIntervals.get(j)[0] <= mergedIntervals.get(i)[1] + k) {
+        j++; // can be combined, move to next
+      } else {
+        // i to j-1 can be combined together => number of intervals = n - (j - i)
+        ans = Math.min(ans, n - (j - i - 1));
+        i++;
       }
-      cur = Math.max(intervals[i][1], cur);
     }
-
-    int res = dp[cur];
-    int temp = res;
-    for (int i = intervals[0][0]; i <= intervals[n-1][1]-k ; i++) {
-      res = Math.min(res, temp-dp[i+k]+dp[i]);
-    }
-
-    return res;
+    ans = Math.min(ans, n - (j - i - 1));
+    return ans;
   }
 
   public static void main(String[] args) {
