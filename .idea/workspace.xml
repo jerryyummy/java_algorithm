@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="7/4/2024 by yummy" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="7/5/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode490.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode556.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -477,6 +482,8 @@
       <workItem from="1719983138518" duration="1222000" />
       <workItem from="1719984955253" duration="3730000" />
       <workItem from="1720084574060" duration="1781000" />
+      <workItem from="1720192025545" duration="2955000" />
+      <workItem from="1720230930612" duration="2779000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -505,14 +512,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00152" summary="4/6/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1712463328684</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1712463328684</updated>
     </task>
     <task id="LOCAL-00153" summary="4/6/2024 by yummy">
       <option name="closed" value="true" />
@@ -866,7 +865,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720109660550</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="7/5/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1720197261133</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1720197261133</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -897,7 +904,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="4/3/2024 by yummy" />
     <MESSAGE value="4/6/2024 by yummy" />
     <MESSAGE value="4/29/2024 by yummy" />
     <MESSAGE value="5/16/2024 by yummy" />
@@ -922,7 +928,8 @@
     <MESSAGE value="7/2/2024 by yummy" />
     <MESSAGE value="7/3/2024 by yummy" />
     <MESSAGE value="7/4/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="7/4/2024 by yummy" />
+    <MESSAGE value="7/5/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/5/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
