@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="7/5/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode490.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode556.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="7/6/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3207.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3208.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3209.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,7 @@
       <recent name="$PROJECT_DIR$/src/meituan" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Leetcode1642">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Leetcode159" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode159" />
       <module name="java_algorithm" />
@@ -185,9 +186,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Leetcode1642" />
         <item itemvalue="Application.Leetcode159" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Leetcode2050" />
         <item itemvalue="Application.RemoveInvalidParentheses" />
       </list>
@@ -483,7 +484,8 @@
       <workItem from="1719984955253" duration="3730000" />
       <workItem from="1720084574060" duration="1781000" />
       <workItem from="1720192025545" duration="2955000" />
-      <workItem from="1720230930612" duration="2779000" />
+      <workItem from="1720230930612" duration="14657000" />
+      <workItem from="1720318430692" duration="4181000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -512,14 +514,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00153" summary="4/6/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1713059577047</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1713059577047</updated>
     </task>
     <task id="LOCAL-00154" summary="4/29/2024 by yummy">
       <option name="closed" value="true" />
@@ -873,7 +867,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720197261133</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="7/6/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1720235191583</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1720235191583</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -904,7 +906,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="4/6/2024 by yummy" />
     <MESSAGE value="4/29/2024 by yummy" />
     <MESSAGE value="5/16/2024 by yummy" />
     <MESSAGE value="5/19/2024 by yummy" />
@@ -929,7 +930,8 @@
     <MESSAGE value="7/3/2024 by yummy" />
     <MESSAGE value="7/4/2024 by yummy" />
     <MESSAGE value="7/5/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="7/5/2024 by yummy" />
+    <MESSAGE value="7/6/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/6/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
