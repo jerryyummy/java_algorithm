@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="7/7/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode140.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode935.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="7/9/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/citadel/152534ubq4nibmg9yhq0w3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/citadel/152546yqlvmpv2lxvtm78c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/citadel/15260qhrltsicbaznxigr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/citadel/1526168op5prxgsmzj60fo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/citadel/153455nhecrm2hzynwrlx3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/citadel/153458sd2g8sn5xxveczcp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/citadel/15350emanbmz1cihxcoxd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/citadel/15352oeuuv3ihmuour4bd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/citadel/IMG_1470.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/citadel/IMG_1471.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/yotta/DisjointLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/yotta/Disjoint_lines.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/yotta/GetSumFromMAndNElements.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/yotta/GetSumFromMAndNElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/yotta/IMG_772147F9-5846-402C-AF02-1E3C2A602D48.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/yotta/IMG_EC05D229-3A2B-4290-BD47-7F8D8DE4B868.JPEG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -66,60 +80,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AirportLimousine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ColoringHouse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JobExcution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Leetcode159.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Leetcode1642.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Leetcode2050.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Leetcode3165.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaxNumberLessThanN.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxUpgradedServers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumSegments.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumWays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OpeningUpWaterways.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RadioWaves.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveInvalidParentheses.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SequantialString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpecialStringPermutation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskMaster.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskSchedule.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadCount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnequalElements.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm/src/snowflake&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.25976562&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.20603015&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AirportLimousine.executor": "Run",
+    "Application.ColoringHouse.executor": "Run",
+    "Application.DisjointLine.executor": "Run",
+    "Application.JobExcution.executor": "Run",
+    "Application.Leetcode159.executor": "Run",
+    "Application.Leetcode1642.executor": "Run",
+    "Application.Leetcode2050.executor": "Debug",
+    "Application.Leetcode3165.executor": "Run",
+    "Application.Main.executor": "Debug",
+    "Application.MaxNumberLessThanN.executor": "Run",
+    "Application.MaxUpgradedServers.executor": "Run",
+    "Application.MinimumSegments.executor": "Run",
+    "Application.NumWays.executor": "Run",
+    "Application.OpeningUpWaterways.executor": "Run",
+    "Application.RadioWaves.executor": "Run",
+    "Application.RemoveInvalidParentheses.executor": "Run",
+    "Application.SequantialString.executor": "Run",
+    "Application.SpecialStringPermutation.executor": "Run",
+    "Application.TaskMaster.executor": "Run",
+    "Application.TaskSchedule.executor": "Run",
+    "Application.ThreadCount.executor": "Run",
+    "Application.UnequalElements.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/youyun/Documents/java-project/java_algorithm/src/citadel",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.25976562",
+    "project.structure.side.proportion": "0.20603015",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/citadel" />
+      <recent name="$PROJECT_DIR$/src/yotta" />
       <recent name="$PROJECT_DIR$/src/snowflake" />
       <recent name="$PROJECT_DIR$/src/huawei" />
       <recent name="$PROJECT_DIR$/src/xhs" />
-      <recent name="$PROJECT_DIR$/src/mihoyo" />
-      <recent name="$PROJECT_DIR$/src/meituan" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.DisjointLine">
+    <configuration name="DisjointLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yotta.DisjointLine" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yotta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Leetcode159" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode159" />
       <module name="java_algorithm" />
@@ -144,19 +172,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java_algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveInvalidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tt.RemoveInvalidParentheses" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DisjointLine" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Leetcode1642" />
         <item itemvalue="Application.Leetcode159" />
         <item itemvalue="Application.Leetcode2050" />
-        <item itemvalue="Application.RemoveInvalidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +502,9 @@
       <workItem from="1720230930612" duration="14657000" />
       <workItem from="1720318430692" duration="4616000" />
       <workItem from="1720361991166" duration="2683000" />
-      <workItem from="1720624657641" duration="1508000" />
+      <workItem from="1720624657641" duration="2380000" />
+      <workItem from="1720743796306" duration="5311000" />
+      <workItem from="1720787654208" duration="5391000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -516,14 +533,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00155" summary="5/16/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1715929656361</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1715929656361</updated>
     </task>
     <task id="LOCAL-00156" summary="5/16/2024 by yummy">
       <option name="closed" value="true" />
@@ -877,7 +886,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720323230615</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="7/9/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1720628075134</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1720628075134</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -908,7 +925,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="5/16/2024 by yummy" />
     <MESSAGE value="5/19/2024 by yummy" />
     <MESSAGE value="5/22/2024 by yummy" />
     <MESSAGE value="5/23/2024 by yummy" />
@@ -933,7 +949,8 @@
     <MESSAGE value="7/5/2024 by yummy" />
     <MESSAGE value="7/6/2024 by yummy" />
     <MESSAGE value="7/7/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="7/7/2024 by yummy" />
+    <MESSAGE value="7/9/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/9/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
