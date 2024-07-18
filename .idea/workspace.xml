@@ -4,26 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="7/9/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/citadel/152534ubq4nibmg9yhq0w3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/citadel/152546yqlvmpv2lxvtm78c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/citadel/15260qhrltsicbaznxigr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/citadel/1526168op5prxgsmzj60fo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/citadel/153455nhecrm2hzynwrlx3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/citadel/153458sd2g8sn5xxveczcp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/citadel/15350emanbmz1cihxcoxd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/citadel/15352oeuuv3ihmuour4bd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/citadel/IMG_1470.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/citadel/IMG_1471.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/yotta/DisjointLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/yotta/Disjoint_lines.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/yotta/GetSumFromMAndNElements.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/yotta/GetSumFromMAndNElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/yotta/IMG_772147F9-5846-402C-AF02-1E3C2A602D48.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/yotta/IMG_EC05D229-3A2B-4290-BD47-7F8D8DE4B868.JPEG" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="7/12/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/citadel/ConsistentLogs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/citadel/StableSegments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/citadel/consistent_logs1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/citadel/consistent_logs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/citadel/consistent_logs2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/citadel/consistent_logs2.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +79,7 @@
     "Application.Leetcode1642.executor": "Run",
     "Application.Leetcode2050.executor": "Debug",
     "Application.Leetcode3165.executor": "Run",
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "Application.MaxNumberLessThanN.executor": "Run",
     "Application.MaxUpgradedServers.executor": "Run",
     "Application.MinimumSegments.executor": "Run",
@@ -101,6 +89,7 @@
     "Application.RemoveInvalidParentheses.executor": "Run",
     "Application.SequantialString.executor": "Run",
     "Application.SpecialStringPermutation.executor": "Run",
+    "Application.StableSegments.executor": "Run",
     "Application.TaskMaster.executor": "Run",
     "Application.TaskSchedule.executor": "Run",
     "Application.ThreadCount.executor": "Run",
@@ -134,7 +123,7 @@
       <recent name="$PROJECT_DIR$/src/xhs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DisjointLine">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DisjointLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="yotta.DisjointLine" />
       <module name="java_algorithm" />
@@ -162,16 +151,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode2050" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode2050" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java_algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="StableSegments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="citadel.StableSegments" />
       <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="citadel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DisjointLine" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StableSegments" />
+        <item itemvalue="Application.DisjointLine" />
         <item itemvalue="Application.Leetcode1642" />
         <item itemvalue="Application.Leetcode159" />
-        <item itemvalue="Application.Leetcode2050" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +499,8 @@
       <workItem from="1720361991166" duration="2683000" />
       <workItem from="1720624657641" duration="2380000" />
       <workItem from="1720743796306" duration="5311000" />
-      <workItem from="1720787654208" duration="5391000" />
+      <workItem from="1720787654208" duration="13350000" />
+      <workItem from="1721176949860" duration="9953000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -533,14 +529,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00156" summary="5/16/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1715930192582</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1715930192582</updated>
     </task>
     <task id="LOCAL-00157" summary="5/19/2024 by yummy">
       <option name="closed" value="true" />
@@ -894,7 +882,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720628075134</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="7/12/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1720857857546</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1720857857546</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -925,7 +921,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="5/19/2024 by yummy" />
     <MESSAGE value="5/22/2024 by yummy" />
     <MESSAGE value="5/23/2024 by yummy" />
     <MESSAGE value="6/1/2024 by yummy for snowflake" />
@@ -950,7 +945,8 @@
     <MESSAGE value="7/6/2024 by yummy" />
     <MESSAGE value="7/7/2024 by yummy" />
     <MESSAGE value="7/9/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="7/9/2024 by yummy" />
+    <MESSAGE value="7/12/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/12/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
