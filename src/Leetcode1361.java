@@ -12,7 +12,6 @@ public class Leetcode1361 {
     Queue<Integer> queue = new LinkedList<>();
     seen.add(root);
     queue.add(root);
-
     while (!queue.isEmpty()) {
       int node = queue.remove();
       int[] children = {leftChild[node], rightChild[node]};
