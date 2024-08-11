@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="7/27/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode3234.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode3235.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="7/28/2024 by yummy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Merge.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +75,7 @@
     &quot;Application.Leetcode1642.executor&quot;: &quot;Run&quot;,
     &quot;Application.Leetcode2050.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Leetcode3165.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
     &quot;Application.MaxNumberLessThanN.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaxUpgradedServers.executor&quot;: &quot;Run&quot;,
     &quot;Application.MinimumSegments.executor&quot;: &quot;Run&quot;,
@@ -503,7 +500,9 @@
       <workItem from="1721810014536" duration="1711000" />
       <workItem from="1721826034177" duration="68000" />
       <workItem from="1722064425362" duration="5353000" />
-      <workItem from="1722133706564" duration="10231000" />
+      <workItem from="1722133706564" duration="10584000" />
+      <workItem from="1723255458942" duration="4678000" />
+      <workItem from="1723373822635" duration="4167000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -532,14 +531,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00160" summary="6/1/2024 by yummy for snowflake">
-      <option name="closed" value="true" />
-      <created>1717207971031</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1717207971031</updated>
     </task>
     <task id="LOCAL-00161" summary="6/1/2024 by yummy for snowflake">
       <option name="closed" value="true" />
@@ -893,7 +884,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722074525507</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="7/28/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1722159528544</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1722159528544</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -924,7 +923,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="6/2/2024 by yummy for snowflake" />
     <MESSAGE value="6/6/2024 by yummy for snowflake" />
     <MESSAGE value="6/8/2024 by yummy for snowflake" />
     <MESSAGE value="6/9/2024 by yummy for snowflake" />
@@ -949,7 +947,8 @@
     <MESSAGE value="7/17/2024 by yummy" />
     <MESSAGE value="7/23/2024 by yummy" />
     <MESSAGE value="7/27/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="7/27/2024 by yummy" />
+    <MESSAGE value="7/28/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="7/28/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -965,5 +964,10 @@
         <PinnedItemInfo parentTag="Node" memberName="arrayList" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((java.util.LinkedList)q).get(1)" custom="java.util.LinkedList" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
