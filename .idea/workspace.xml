@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="7/28/2024 by yummy">
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="8/10/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode165.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode334.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tt/CardPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tt/CardPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tt/MaxGoodSubArrayLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tt/MaxGoodSubArrayLength.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +71,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Application.AirportLimousine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CardPacket.executor&quot;: &quot;Run&quot;,
     &quot;Application.ColoringHouse.executor&quot;: &quot;Run&quot;,
     &quot;Application.DisjointLine.executor&quot;: &quot;Run&quot;,
     &quot;Application.JobExcution.executor&quot;: &quot;Run&quot;,
@@ -76,6 +80,7 @@
     &quot;Application.Leetcode2050.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Leetcode3165.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MaxGoodSubArrayLength.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaxNumberLessThanN.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaxUpgradedServers.executor&quot;: &quot;Run&quot;,
     &quot;Application.MinimumSegments.executor&quot;: &quot;Run&quot;,
@@ -96,7 +101,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm/src/citadel&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm/src/tt&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -112,14 +117,27 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tt" />
       <recent name="$PROJECT_DIR$/src/citadel" />
       <recent name="$PROJECT_DIR$/src/yotta" />
       <recent name="$PROJECT_DIR$/src/snowflake" />
       <recent name="$PROJECT_DIR$/src/huawei" />
-      <recent name="$PROJECT_DIR$/src/xhs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MaxGoodSubArrayLength">
+    <configuration name="CardPacket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tt.CardPacket" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DisjointLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="yotta.DisjointLine" />
       <module name="java_algorithm" />
@@ -133,23 +151,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode159" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode159" />
-      <module name="java_algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Leetcode1642" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode1642" />
-      <module name="java_algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java_algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxGoodSubArrayLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tt.MaxGoodSubArrayLength" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxGoodSubArrayLength" />
+        <item itemvalue="Application.CardPacket" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StableSegments" />
         <item itemvalue="Application.DisjointLine" />
-        <item itemvalue="Application.Leetcode1642" />
-        <item itemvalue="Application.Leetcode159" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +519,8 @@
       <workItem from="1722064425362" duration="5353000" />
       <workItem from="1722133706564" duration="10584000" />
       <workItem from="1723255458942" duration="4678000" />
-      <workItem from="1723373822635" duration="4167000" />
+      <workItem from="1723373822635" duration="10112000" />
+      <workItem from="1723476225469" duration="1714000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -531,14 +549,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00161" summary="6/1/2024 by yummy for snowflake">
-      <option name="closed" value="true" />
-      <created>1717208585275</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1717208585276</updated>
     </task>
     <task id="LOCAL-00162" summary="6/1/2024 by yummy for snowflake">
       <option name="closed" value="true" />
@@ -892,7 +902,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722159528544</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="8/10/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1723379001708</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1723379001709</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -923,7 +941,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="6/6/2024 by yummy for snowflake" />
     <MESSAGE value="6/8/2024 by yummy for snowflake" />
     <MESSAGE value="6/9/2024 by yummy for snowflake" />
     <MESSAGE value="6/12/2024 by yummy for snowflake" />
@@ -948,7 +965,8 @@
     <MESSAGE value="7/23/2024 by yummy" />
     <MESSAGE value="7/27/2024 by yummy" />
     <MESSAGE value="7/28/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="7/28/2024 by yummy" />
+    <MESSAGE value="8/10/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/10/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
