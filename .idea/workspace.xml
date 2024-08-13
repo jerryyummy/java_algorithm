@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="8/10/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode165.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leetcode334.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="8/11/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode475.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tt/CardPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tt/CardPacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tt/MaxGoodSubArrayLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tt/MaxGoodSubArrayLength.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -520,7 +516,8 @@
       <workItem from="1722133706564" duration="10584000" />
       <workItem from="1723255458942" duration="4678000" />
       <workItem from="1723373822635" duration="10112000" />
-      <workItem from="1723476225469" duration="1714000" />
+      <workItem from="1723476225469" duration="1889000" />
+      <workItem from="1723531827909" duration="965000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -549,14 +546,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00162" summary="6/1/2024 by yummy for snowflake">
-      <option name="closed" value="true" />
-      <created>1717209658926</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1717209658926</updated>
     </task>
     <task id="LOCAL-00163" summary="6/1/2024 by yummy for snowflake">
       <option name="closed" value="true" />
@@ -910,7 +899,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723379001709</updated>
     </task>
-    <option name="localTasksCounter" value="207" />
+    <task id="LOCAL-00207" summary="8/11/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1723480691573</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1723480691574</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -941,7 +938,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="6/8/2024 by yummy for snowflake" />
     <MESSAGE value="6/9/2024 by yummy for snowflake" />
     <MESSAGE value="6/12/2024 by yummy for snowflake" />
     <MESSAGE value="6/15/2024 by yummy for snowflake" />
@@ -966,7 +962,8 @@
     <MESSAGE value="7/27/2024 by yummy" />
     <MESSAGE value="7/28/2024 by yummy" />
     <MESSAGE value="8/10/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="8/10/2024 by yummy" />
+    <MESSAGE value="8/11/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/11/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
