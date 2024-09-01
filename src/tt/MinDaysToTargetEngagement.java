@@ -4,6 +4,29 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.TreeMap;
 
+/*
+long minDaysToTargetEngagement(long initialEngagementScore, long targetEngagementScore, vector<long> trainingEngagementScore) {
+    long long currentScore = initialEngagementScore;
+    long long days = 0;
+    multiset<long> scores(trainingEngagementScore.begin(), trainingEngagementScore.end());
+
+    while (currentScore < targetEngagementScore) {
+        days++;
+        auto it = scores.lower_bound(currentScore + 1);
+        if (it != scores.begin()) {
+            --it;
+            if (*it > days) {
+                currentScore += *it;
+                scores.erase(it);
+                continue;
+            }
+        }
+        currentScore += days;
+    }
+
+    return days;
+}
+ */
 public class MinDaysToTargetEngagement {
   public static long minDaysToTargetEngagement(int initialEngagementScore, int targetEngagementScore, List<Integer> trainingEngagementScores) {
     long currentScore = initialEngagementScore;

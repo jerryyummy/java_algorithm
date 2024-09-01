@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="8/17/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/element/IMG_1720.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/element/IMG_1721.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/element/MaxSubarray.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/element/MaxSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tt/MaxSharedCategories.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tt/MaxSharedCategories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tt/MinimumTransaction.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tt/MinimumTransaction.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="8/25/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3266.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3267.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alibaba/BigNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alibaba/bignum.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alibaba/mincost.JPEG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tt/ContentStrength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tt/ContentStrength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tt/MinDaysToTargetEngagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tt/MinDaysToTargetEngagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,72 +71,80 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AirportLimousine.executor": "Run",
-    "Application.CardPacket.executor": "Run",
-    "Application.ColoringHouse.executor": "Run",
-    "Application.DisjointLine.executor": "Run",
-    "Application.JobExcution.executor": "Run",
-    "Application.Leetcode159.executor": "Run",
-    "Application.Leetcode1642.executor": "Run",
-    "Application.Leetcode2050.executor": "Debug",
-    "Application.Leetcode2523.executor": "Debug",
-    "Application.Leetcode3165.executor": "Run",
-    "Application.Leetcode560.executor": "Debug",
-    "Application.Main.executor": "Run",
-    "Application.MaxGoodSubArrayLength.executor": "Run",
-    "Application.MaxNumberLessThanN.executor": "Run",
-    "Application.MaxSharedCategories.executor": "Run",
-    "Application.MaxSubarray.executor": "Run",
-    "Application.MaxUpgradedServers.executor": "Run",
-    "Application.MinimumSegments.executor": "Run",
-    "Application.MinimumTransaction.executor": "Run",
-    "Application.NumWays.executor": "Run",
-    "Application.OpeningUpWaterways.executor": "Run",
-    "Application.RadioWaves.executor": "Run",
-    "Application.RemoveInvalidParentheses.executor": "Run",
-    "Application.SequantialString.executor": "Run",
-    "Application.SpecialStringPermutation.executor": "Run",
-    "Application.StableSegments.executor": "Run",
-    "Application.TaskMaster.executor": "Run",
-    "Application.TaskSchedule.executor": "Run",
-    "Application.ThreadCount.executor": "Run",
-    "Application.UnequalElements.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/youyun/Documents/java-project/java_algorithm/src/element",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.25976562",
-    "project.structure.side.proportion": "0.20603015",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AirportLimousine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CardPacket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ColoringHouse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContentStrength.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DisjointLine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JobExcution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode159.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode1642.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode2050.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Leetcode2523.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Leetcode3165.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leetcode560.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxGoodSubArrayLength.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxNumberLessThanN.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxSharedCategories.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxSubarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxUpgradedServers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinDaysToTargetEngagement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumSegments.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumTransaction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumWays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OpeningUpWaterways.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RadioWaves.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveInvalidParentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SequantialString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpecialStringPermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StableSegments.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskMaster.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskSchedule.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnequalElements.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm/src/tt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.25976562&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20603015&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/element" />
       <recent name="$PROJECT_DIR$/src/tt" />
+      <recent name="$PROJECT_DIR$/src/alibaba" />
+      <recent name="$PROJECT_DIR$/src/element" />
       <recent name="$PROJECT_DIR$/src/citadel" />
       <recent name="$PROJECT_DIR$/src/yotta" />
-      <recent name="$PROJECT_DIR$/src/snowflake" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxSubarray">
-    <configuration name="Leetcode2523" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode2523" />
+  <component name="RunManager" selected="Application.MinDaysToTargetEngagement">
+    <configuration name="ContentStrength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tt.ContentStrength" />
       <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,8 +182,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumTransaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tt.MinimumTransaction" />
+    <configuration name="MinDaysToTargetEngagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tt.MinDaysToTargetEngagement" />
       <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -211,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinDaysToTargetEngagement" />
+        <item itemvalue="Application.ContentStrength" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MaxSubarray" />
         <item itemvalue="Application.MaxSharedCategories" />
-        <item itemvalue="Application.MinimumTransaction" />
-        <item itemvalue="Application.Leetcode2523" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -530,7 +539,10 @@
       <workItem from="1723903263262" duration="4075000" />
       <workItem from="1724165014857" duration="3435000" />
       <workItem from="1724201865223" duration="50000" />
-      <workItem from="1724494456111" duration="644000" />
+      <workItem from="1724494456111" duration="17910000" />
+      <workItem from="1724594734358" duration="2550000" />
+      <workItem from="1724757632080" duration="1779000" />
+      <workItem from="1724772477561" duration="1443000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -559,30 +571,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00166" summary="6/1/2024 by yummy for snowflake">
-      <option name="closed" value="true" />
-      <created>1717251512571</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1717251512571</updated>
-    </task>
-    <task id="LOCAL-00167" summary="6/1/2024 by yummy for snowflake">
-      <option name="closed" value="true" />
-      <created>1717255969577</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1717255969577</updated>
-    </task>
-    <task id="LOCAL-00168" summary="6/2/2024 by yummy for snowflake">
-      <option name="closed" value="true" />
-      <created>1717326976834</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1717326976834</updated>
     </task>
     <task id="LOCAL-00169" summary="6/2/2024 by yummy for snowflake">
       <option name="closed" value="true" />
@@ -920,7 +908,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723971218742</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="8/24/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1724495929565</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1724495929566</updated>
+    </task>
+    <task id="LOCAL-00212" summary="8/25/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1724596799892</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1724596799892</updated>
+    </task>
+    <task id="LOCAL-00213" summary="8/25/2024 by yummy">
+      <option name="closed" value="true" />
+      <created>1724597583054</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1724597583054</updated>
+    </task>
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -951,8 +963,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="6/16/2024 by yummy for snowflake" />
-    <MESSAGE value="6/18/2024 by yummy for snowflake" />
     <MESSAGE value="6/23/2024 by yummy for snowflake" />
     <MESSAGE value="6/25/2024 by yummy for snowflake" />
     <MESSAGE value="6/27/2024 by yummy" />
@@ -976,7 +986,9 @@
     <MESSAGE value="8/13/2024 by yummy" />
     <MESSAGE value="8/14/2024 by yummy" />
     <MESSAGE value="8/17/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="8/17/2024 by yummy" />
+    <MESSAGE value="8/24/2024 by yummy" />
+    <MESSAGE value="8/25/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/25/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
