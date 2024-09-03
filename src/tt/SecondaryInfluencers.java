@@ -48,7 +48,7 @@ public class SecondaryInfluencers {
     }
   }
 
-  public static int getSecondaryInfluencerSum(int g_nodes, List<Integer> g_from, List<Integer> g_to) {
+  public static long getSecondaryInfluencerSum(int g_nodes, List<Integer> g_from, List<Integer> g_to) {
     int m = g_from.size();
     for (int i = 0; i < m; i++) {
       int u = g_from.get(i);
@@ -57,7 +57,7 @@ public class SecondaryInfluencers {
       road[v].add(u);
     }
 
-    int maxn = 0;
+    long maxn = 0;
     dfs1(1, -1);
     dfs2(1, -1, 0);
 
@@ -65,7 +65,7 @@ public class SecondaryInfluencers {
       maxn = Math.max(maxn, f[i] + s[i]);
     }
 
-    int sum = 0;
+    long sum = 0;
     for (int i = 1; i <= g_nodes; i++) {
       if (f[i] + s[i] != maxn) {
         sum += i;
