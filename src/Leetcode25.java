@@ -1,6 +1,5 @@
 public class Leetcode25 {
   public ListNode reverseLinkedList(ListNode head, int k) {
-
     ListNode new_head = null;
     ListNode ptr = head;
     while (k > 0) {
@@ -15,7 +14,6 @@ public class Leetcode25 {
   }
 
   public ListNode reverseKGroup(ListNode head, int k) {
-
     int count = 0;
     ListNode ptr = head;
 
