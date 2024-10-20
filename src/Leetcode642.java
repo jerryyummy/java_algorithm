@@ -8,30 +8,30 @@ public class Leetcode642 {
 
 }
 
-class TrieNode {
-  Map<Character, TrieNode> children;
+class TrieNode1 {
+  Map<Character, TrieNode1> children;
   Map<String, Integer> sentences;
-  public TrieNode() {
+  public TrieNode1() {
     children = new HashMap<>();
     sentences = new HashMap<>();
   }
 }
 
 class AutocompleteSystem {
-  TrieNode root;
-  TrieNode currNode;
-  TrieNode dead;
+  TrieNode1 root;
+  TrieNode1 currNode;
+  TrieNode1 dead;
   StringBuilder currSentence;
 
   public AutocompleteSystem(String[] sentences, int[] times) {
-    root = new TrieNode();
+    root = new TrieNode1();
     for (int i = 0; i < sentences.length; i++) {
       addToTrie(sentences[i], times[i]);
     }
 
     currSentence = new StringBuilder();
     currNode = root;
-    dead = new TrieNode();
+    dead = new TrieNode1();
   }
 
   public List<String> input(char c) {
@@ -69,10 +69,10 @@ class AutocompleteSystem {
   }
 
   private void addToTrie(String sentence, int count) {
-    TrieNode node = root;
+    TrieNode1 node = root;
     for (char c: sentence.toCharArray()) {
       if (!node.children.containsKey(c)) {
-        node.children.put(c, new TrieNode());
+        node.children.put(c, new TrieNode1());
       }
 
       node = node.children.get(c);
