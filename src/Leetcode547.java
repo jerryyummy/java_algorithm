@@ -1,11 +1,11 @@
 import java.util.HashSet;
 import java.util.Set;
 
-class UnionFind1 {
+class UnionFind3 {
   int[] parent;
   int[] rank;
 
-  public UnionFind1(int n) {
+  public UnionFind3(int n) {
     this.parent = new int[n];
     this.rank = new int[n];
     for (int i = 0; i < n; i++) {
@@ -45,7 +45,7 @@ class UnionFind1 {
 class Leetcode547 {
   public int findCircleNum(int[][] isConnected) {
     int n = isConnected.length;
-    UnionFind1 uf = new UnionFind1(n);
+    UnionFind3 uf = new UnionFind3(n);
 
     // Union all connected cities
     for (int i = 0; i < n; i++) {
