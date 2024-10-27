@@ -11,6 +11,7 @@ public class Leetcode452 {
         return Integer.compare(a[1], b[1]);
       }
     });
+
     int maxRight = points[0][1];
     for (int i = 0; i < points.length; i++) {
       if(points[i][0]<=maxRight) continue;
