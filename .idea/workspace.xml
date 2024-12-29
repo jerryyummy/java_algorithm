@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="12/22/2024 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode2001.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="8/25/2024 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3266.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode3267.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alibaba/BigNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alibaba/bignum.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alibaba/mincost.JPEG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tt/ContentStrength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tt/ContentStrength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tt/MinDaysToTargetEngagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tt/MinDaysToTargetEngagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,12 +108,11 @@
     &quot;Application.UnequalElements.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/didi/Documents/other/java_algorithm&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm/src/tt&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -115,7 +122,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.25976562&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.20603015&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -191,6 +198,9 @@
     <configuration default="true" type="SwaggerCodegen" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="customTemplatesPath" value="" />
+      <option name="envs">
+        <map />
+      </option>
       <option name="generateToPath" value="$PROJECT_DIR$/gen" />
       <option name="generationParameters">
         <list />
@@ -198,11 +208,14 @@
       <option name="generatorType" value="OPENAPI_GENERATOR_V6" />
       <option name="jdkPath" value="$APPLICATION_HOME_DIR$/jbr/Contents/Home/bin/java" />
       <option name="language" value="kotlin" />
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
       <option name="specificationPath" value="$PROJECT_DIR$/src/demo.yaml" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -218,8 +231,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
       </set>
     </attachedChunks>
   </component>
@@ -530,10 +543,6 @@
       <workItem from="1724594734358" duration="2550000" />
       <workItem from="1724757632080" duration="1779000" />
       <workItem from="1724772477561" duration="1443000" />
-      <workItem from="1732624935695" duration="20000" />
-      <workItem from="1732695750822" duration="1709000" />
-      <workItem from="1732775027905" duration="5800000" />
-      <workItem from="1734856541254" duration="1324000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -562,6 +571,22 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
+    </task>
+    <task id="LOCAL-00169" summary="6/2/2024 by yummy for snowflake">
+      <option name="closed" value="true" />
+      <created>1717328715748</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1717328715748</updated>
+    </task>
+    <task id="LOCAL-00170" summary="6/6/2024 by yummy for snowflake">
+      <option name="closed" value="true" />
+      <created>1717644541841</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1717644541841</updated>
     </task>
     <task id="LOCAL-00171" summary="6/8/2024 by yummy for snowflake">
       <option name="closed" value="true" />
@@ -907,23 +932,7 @@
       <option name="project" value="LOCAL" />
       <updated>1724597583054</updated>
     </task>
-    <task id="LOCAL-00214" summary="11/28/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1732782059679</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1732782059679</updated>
-    </task>
-    <task id="LOCAL-00215" summary="12/22/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1734856622478</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1734856622479</updated>
-    </task>
-    <option name="localTasksCounter" value="216" />
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -954,6 +963,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="6/23/2024 by yummy for snowflake" />
+    <MESSAGE value="6/25/2024 by yummy for snowflake" />
     <MESSAGE value="6/27/2024 by yummy" />
     <MESSAGE value="6/29/2024 by yummy" />
     <MESSAGE value="6/30/2024 by yummy" />
@@ -977,9 +988,7 @@
     <MESSAGE value="8/17/2024 by yummy" />
     <MESSAGE value="8/24/2024 by yummy" />
     <MESSAGE value="8/25/2024 by yummy" />
-    <MESSAGE value="11/28/2024 by yummy" />
-    <MESSAGE value="12/22/2024 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="12/22/2024 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/25/2024 by yummy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1000,9 +1009,5 @@
         <watch expression="((java.util.LinkedList)q).get(1)" custom="java.util.LinkedList" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
