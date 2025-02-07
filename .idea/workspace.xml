@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="2/3/2025 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/alibaba/BigNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/alibaba/bignum.JPEG" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="2/6/2025 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/Leetcode1726.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode274.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leetcode852.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -73,10 +74,12 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Application.AirportLimousine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BigNum.executor&quot;: &quot;Run&quot;,
     &quot;Application.CardPacket.executor&quot;: &quot;Run&quot;,
     &quot;Application.ColoringHouse.executor&quot;: &quot;Run&quot;,
     &quot;Application.ContentStrength.executor&quot;: &quot;Run&quot;,
     &quot;Application.DisjointLine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualizeArrays.executor&quot;: &quot;Debug&quot;,
     &quot;Application.JobExcution.executor&quot;: &quot;Run&quot;,
     &quot;Application.Leetcode1169.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Leetcode159.executor&quot;: &quot;Run&quot;,
@@ -108,6 +111,7 @@
     &quot;Application.UnequalElements.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -115,7 +119,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm/src/mathwork&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -131,20 +135,33 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mathwork" />
       <recent name="$PROJECT_DIR$/src/tt" />
       <recent name="$PROJECT_DIR$/src/alibaba" />
       <recent name="$PROJECT_DIR$/src/element" />
       <recent name="$PROJECT_DIR$/src/citadel" />
-      <recent name="$PROJECT_DIR$/src/yotta" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BigNum">
+  <component name="RunManager" selected="Application.EqualizeArrays">
     <configuration name="BigNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="alibaba.BigNum" />
       <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EqualizeArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathwork.EqualizeArrays" />
+      <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mathwork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,25 +190,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinDaysToTargetEngagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tt.MinDaysToTargetEngagement" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="SwaggerCodegen" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allowRunningInParallel" value="false" />
       <option name="customTemplatesPath" value="" />
-      <option name="envs">
-        <map />
-      </option>
       <option name="generateToPath" value="$PROJECT_DIR$/gen" />
       <option name="generationParameters">
         <list />
@@ -199,31 +200,28 @@
       <option name="generatorType" value="OPENAPI_GENERATOR_V6" />
       <option name="jdkPath" value="$APPLICATION_HOME_DIR$/jbr/Contents/Home/bin/java" />
       <option name="language" value="kotlin" />
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
       <option name="specificationPath" value="$PROJECT_DIR$/src/demo.yaml" />
-      <option name="workingDirectory" value="$PROJECT_DIR$/src" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EqualizeArrays" />
         <item itemvalue="Application.BigNum" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Leetcode1169" />
         <item itemvalue="Application.Leetcode503" />
-        <item itemvalue="Application.MinDaysToTargetEngagement" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -546,7 +544,11 @@
       <workItem from="1738365325166" duration="59000" />
       <workItem from="1738439922871" duration="2303000" />
       <workItem from="1738623330993" duration="627000" />
-      <workItem from="1738730363471" duration="568000" />
+      <workItem from="1738730363471" duration="1756000" />
+      <workItem from="1738744923086" duration="1624000" />
+      <workItem from="1738887104832" duration="1209000" />
+      <workItem from="1738911703444" duration="6678000" />
+      <workItem from="1738965402551" duration="4121000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -575,46 +577,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00188" summary="6/27/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1719567989402</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1719567989403</updated>
-    </task>
-    <task id="LOCAL-00189" summary="6/27/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1719569046087</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1719569046088</updated>
-    </task>
-    <task id="LOCAL-00190" summary="6/29/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1719634440887</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1719634440887</updated>
-    </task>
-    <task id="LOCAL-00191" summary="6/30/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1719723156029</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1719723156029</updated>
-    </task>
-    <task id="LOCAL-00192" summary="7/1/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1719821944732</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1719821944732</updated>
     </task>
     <task id="LOCAL-00193" summary="7/2/2024 by yummy">
       <option name="closed" value="true" />
@@ -936,7 +898,47 @@
       <option name="project" value="LOCAL" />
       <updated>1738730592136</updated>
     </task>
-    <option name="localTasksCounter" value="233" />
+    <task id="LOCAL-00233" summary="2/3/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1738731110266</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1738731110267</updated>
+    </task>
+    <task id="LOCAL-00234" summary="2/3/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1738731114406</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1738731114406</updated>
+    </task>
+    <task id="LOCAL-00235" summary="2/5/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1738749224200</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1738749224200</updated>
+    </task>
+    <task id="LOCAL-00236" summary="2/6/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1738912960438</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1738912960438</updated>
+    </task>
+    <task id="LOCAL-00237" summary="2/6/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1738920718801</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1738920718801</updated>
+    </task>
+    <option name="localTasksCounter" value="238" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -967,8 +969,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="7/9/2024 by yummy" />
-    <MESSAGE value="7/12/2024 by yummy" />
     <MESSAGE value="7/17/2024 by yummy" />
     <MESSAGE value="7/23/2024 by yummy" />
     <MESSAGE value="7/27/2024 by yummy" />
@@ -992,7 +992,9 @@
     <MESSAGE value="1/31/2025 by yummy" />
     <MESSAGE value="2/1/2025 by yummy" />
     <MESSAGE value="2/3/2025 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="2/3/2025 by yummy" />
+    <MESSAGE value="2/5/2025 by yummy" />
+    <MESSAGE value="2/6/2025 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="2/6/2025 by yummy" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
@@ -1012,10 +1014,5 @@
         <PinnedItemInfo parentTag="Node" memberName="arrayList" />
       </pinned-members>
     </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="((java.util.LinkedList)q).get(1)" custom="java.util.LinkedList" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
