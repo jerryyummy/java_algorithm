@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -31,8 +32,8 @@ public class Leetcode772 {
       if (Character.isDigit(c)) {
         curr += c;
       } else if (c == '(') {
-        stack.push("" + previousOperator); // convert char to string before pushing
-        previousOperator = '+';//()里第一个符号是+
+        stack.push("" + previousOperator);
+        previousOperator = '+';
       } else {
         if (previousOperator == '*' || previousOperator == '/') {
           stack.push(evaluate(previousOperator, stack.pop(), curr));
@@ -40,16 +41,16 @@ public class Leetcode772 {
           stack.push(evaluate(previousOperator, curr, "0"));
         }
 
-        curr = "";//当前数字是0
-        previousOperator = c;//更改运算符
+        curr = "";
+        previousOperator = c;
         if (c == ')') {
-          int currentTerm = 0;//当前的数字
-          while (!operators.contains(stack.peek())) {//只要栈里面一直是数字
+          int currentTerm = 0;
+          while (!operators.contains(stack.peek())) {
             currentTerm += Integer.parseInt(stack.pop());
           }
 
           curr = Integer.toString(currentTerm);
-          previousOperator = stack.pop().charAt(0); // convert string from stack back to char
+          previousOperator = stack.pop().charAt(0);
         }
       }
     }
