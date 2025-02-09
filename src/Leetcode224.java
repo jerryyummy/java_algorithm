@@ -1,38 +1,45 @@
 import java.util.Stack;
 
 public class Leetcode224 {
-  public int calculate(String s) {
+  public static int calculate(String s) {
     Stack<Integer> stack = new Stack<Integer>();
-    int operand = 0;
-    int result = 0; // For the on-going result
-    int sign = 1;  // 1 means positive, -1 means negative
+    int result = 0;
+    int curr = 0;
+    int sign = 1;
     for (int i = 0; i < s.length(); i++) {
-      char ch = s.charAt(i);
-      if (Character.isDigit(ch)) {
-        // Forming operand, since it could be more than one digit
-        operand = 10 * operand + (ch - '0');
-      } else if (ch == '+') {
-        result += sign * operand;
-        // Save the recently encountered '+' sign
+      char c = s.charAt(i);
+      if (Character.isDigit(c)) {
+        curr = curr * 10 + c - '0';
+      }else if (c == '+'){
+        result += sign*curr;
+        curr = 0;
         sign = 1;
-        // Reset operand
-        operand = 0;
-      } else if (ch == '-') {
-        result += sign * operand;
+      }else if (c == '-'){
+        result += sign*curr;
+        curr = 0;
         sign = -1;
-        operand = 0;
-      } else if (ch == '(') {
+      }else if (c == '('){
         stack.push(result);
         stack.push(sign);
         sign = 1;
         result = 0;
-      } else if (ch == ')') {
-        result += sign * operand;
-        result *= stack.pop();//括号之前的符号
+        curr = 0;
+      }else if (c == ')'){
+        result += sign*curr;
+        result *= stack.pop();
         result += stack.pop();
-        operand = 0;
+        curr = 0;
       }
     }
-    return result + (sign * operand);
+    result += sign*curr;
+    int res = result;
+    while(!stack.isEmpty()){
+      res += stack.pop();
+    }
+    return res;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(calculate("- (3 + (4 + 5))"));
   }
 }
