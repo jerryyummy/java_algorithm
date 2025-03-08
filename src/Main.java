@@ -1,55 +1,50 @@
 import java.util.*;
 
 public class Main {
+  public static void main(String[] args) {
+    Main main = new Main();
+      System.out.println(main.maxSubstringLength("cdefdc", 3));
+  }
 
+    public boolean maxSubstringLength(String s, int k) {
+      Map<Character, Integer> first = new HashMap<>();
+      Map<Character, Integer> last = new HashMap<>();
 
-//  public static void main(String[] args) {
-//    Scanner in = new Scanner(System.in);
-//    // 注意 hasNext 和 hasNextLine 的区别
-//    int T = in.nextInt();
-//    List<Integer> list = new ArrayList<>();
-//    for (int i = 0; i < T; i++) {
-//      int n = in.nextInt();
-//      int k = in.nextInt();
-//      int x = in.nextInt();
-//      int[] arr = new int[n];
-//      for (int j = 0; j < n; j++) {
-//        arr[j] = in.nextInt();
-//      }
-//      list.add(solve(arr, k, x));
-//    }
-//    StringBuilder stringBuilder = new StringBuilder();
-//    for (int i = 0; i < list.size(); i++) {
-//      stringBuilder.append(list.get(i));
-//      stringBuilder.append(" ");
-//    }
-//    System.out.println(stringBuilder.toString().trim());
-//  }
-//
-//  public static int solve(int[] array, int k, int x){
-//    int length = array.length;
-//    int[] dp = new int[length+1];
-//    TreeSet<Integer> set = new TreeSet<>();
-//    for (int i = 1; i <= length ; i++) {
-//      set.add(i);
-//    }
-//    for (int i = length-1; i >= 0 ; i--) {
-//      if (set.contains(array[i])) {
-//        set.remove(array[i]);
-//      }
-//      if (set.isEmpty()) {
-//        dp[i] = length+1;
-//      }else{
-//        dp[i] = set.first();
-//      }
-//    }
-//
-//    int res = k*dp[0];
-//    for (int i = 1; i <= length; i++) {
-//      res = Math.min(res, x*i + k*dp[i]);
-//    }
-//
-//    return res;
-//  }
+      for (int i = 0; i < s.length(); i++) {
+          if(!first.containsKey(s.charAt(i))){
+              first.put(s.charAt(i), i);
+          }
+          last.put(s.charAt(i), i);
+      }
 
+        for (int i = 0; i < s.length(); i++) {
+            int curr = 0;
+            int j = i;
+            while (j<s.length()){
+                boolean flag = false;
+                for (int l = j; l < s.length() && l-j+1 <s.length(); l++) {
+                    if (isSubstring(s,first,last,j,l)) {
+                        curr++;
+                        j = l+1;
+                        flag = true;
+                        break;
+                    }
+                }
+                if(!flag){
+                    j++;
+                }
+            }
+            if(curr >= k) return true;
+        }
+      return false;
+    }
+
+    public boolean isSubstring(String s, Map<Character, Integer> first, Map<Character, Integer> last, int start, int end) {
+        for (int i = start; i < end; i++) {
+            if (first.get(s.charAt(i)) < start || last.get(s.charAt(i)) > end) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
