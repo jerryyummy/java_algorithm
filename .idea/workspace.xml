@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="3/7/2025 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/alibaba/TestCaseCoverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/alibaba/testCoverage1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/alibaba/testCoverage2.webp" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="3/14/2025 by yummy">
+      <change afterPath="$PROJECT_DIR$/src/alibaba/MinRangeAfterOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meituan/MinimumSpanningTreeWeight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +105,7 @@
     "Application.Maximize_Total_Memory_Points.executor": "Run",
     "Application.MaximumThroughput.executor": "Run",
     "Application.MinDaysToTargetEngagement.executor": "Run",
+    "Application.MinRangeAfterOperations.executor": "Run",
     "Application.MinimumInefficiency.executor": "Run",
     "Application.MinimumSegments.executor": "Run",
     "Application.MinimumTransaction.executor": "Run",
@@ -134,7 +132,7 @@
     "git-widget-placeholder": "master",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/youyun/Documents/java-project/java_algorithm/src/mihoyo",
+    "last_opened_file_path": "/Users/youyun/Documents/java-project/java_algorithm/src/meituan",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -150,30 +148,30 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/meituan" />
+      <recent name="$PROJECT_DIR$/src/element" />
       <recent name="$PROJECT_DIR$/src/mihoyo" />
       <recent name="$PROJECT_DIR$/src/mathwork" />
       <recent name="$PROJECT_DIR$/src/tt" />
-      <recent name="$PROJECT_DIR$/src/alibaba" />
-      <recent name="$PROJECT_DIR$/src/element" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCaseCoverage">
-    <configuration name="GameWinner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="amazon.GameWinner" />
+  <component name="RunManager" selected="Application.MinRangeAfterOperations">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="amazon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="MinRangeAfterOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="alibaba.MinRangeAfterOperations" />
       <module name="java_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinRangeAfterOperations" />
         <item itemvalue="Application.TestCaseCoverage" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.NumberRedundancyFree" />
         <item itemvalue="Application.MinimumInefficiency" />
-        <item itemvalue="Application.GameWinner" />
       </list>
     </recent_temporary>
   </component>
@@ -591,7 +589,11 @@
       <workItem from="1740680751705" duration="195000" />
       <workItem from="1741426794668" duration="591000" />
       <workItem from="1741436954744" duration="1442000" />
-      <workItem from="1741695395062" duration="2841000" />
+      <workItem from="1741695395062" duration="3902000" />
+      <workItem from="1741718238381" duration="780000" />
+      <workItem from="1741776067566" duration="1834000" />
+      <workItem from="1741986545866" duration="994000" />
+      <workItem from="1741990332511" duration="11458000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -620,78 +622,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00211" summary="8/24/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1724495929565</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1724495929566</updated>
-    </task>
-    <task id="LOCAL-00212" summary="8/25/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1724596799892</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1724596799892</updated>
-    </task>
-    <task id="LOCAL-00213" summary="8/25/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1724597583054</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1724597583054</updated>
-    </task>
-    <task id="LOCAL-00214" summary="12/29/2024 by yummy">
-      <option name="closed" value="true" />
-      <created>1735446960577</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1735446960577</updated>
-    </task>
-    <task id="LOCAL-00215" summary="1/16/2025 by yummy">
-      <option name="closed" value="true" />
-      <created>1737057637663</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1737057637664</updated>
-    </task>
-    <task id="LOCAL-00216" summary="1/16/2025 by yummy">
-      <option name="closed" value="true" />
-      <created>1737081568048</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1737081568048</updated>
-    </task>
-    <task id="LOCAL-00217" summary="1/17/2025 by yummy">
-      <option name="closed" value="true" />
-      <created>1737107534028</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1737107534028</updated>
-    </task>
-    <task id="LOCAL-00218" summary="1/17/2025 by yummy">
-      <option name="closed" value="true" />
-      <created>1737145173829</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
-      <option name="project" value="LOCAL" />
-      <updated>1737145173829</updated>
-    </task>
-    <task id="LOCAL-00219" summary="1/17/2025 by yummy">
-      <option name="closed" value="true" />
-      <created>1737145886031</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1737145886031</updated>
     </task>
     <task id="LOCAL-00220" summary="1/17/2025 by yummy">
       <option name="closed" value="true" />
@@ -981,7 +911,79 @@
       <option name="project" value="LOCAL" />
       <updated>1741427120949</updated>
     </task>
-    <option name="localTasksCounter" value="256" />
+    <task id="LOCAL-00256" summary="3/11/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1741716598644</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1741716598645</updated>
+    </task>
+    <task id="LOCAL-00257" summary="3/12/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1741777900516</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1741777900517</updated>
+    </task>
+    <task id="LOCAL-00258" summary="3/13/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1741986916365</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1741986916365</updated>
+    </task>
+    <task id="LOCAL-00259" summary="3/13/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1742004135820</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1742004135820</updated>
+    </task>
+    <task id="LOCAL-00260" summary="3/13/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1742009720973</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1742009720973</updated>
+    </task>
+    <task id="LOCAL-00261" summary="3/14/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1742009950024</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1742009950024</updated>
+    </task>
+    <task id="LOCAL-00262" summary="3/14/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1742021853945</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1742021853945</updated>
+    </task>
+    <task id="LOCAL-00263" summary="3/14/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1742024181982</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1742024181982</updated>
+    </task>
+    <task id="LOCAL-00264" summary="3/14/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1742062068385</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1742062068385</updated>
+    </task>
+    <option name="localTasksCounter" value="265" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1012,10 +1014,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1/16/2025 by yummy" />
-    <MESSAGE value="1/17/2025 by yummy" />
-    <MESSAGE value="1/20/2025 by yummy" />
-    <MESSAGE value="1/22/2025 by yummy" />
     <MESSAGE value="1/24/2025 by yummy" />
     <MESSAGE value="1/25/2025 by yummy" />
     <MESSAGE value="1/26/2025 by yummy" />
@@ -1037,7 +1035,11 @@
     <MESSAGE value="2/21/2025 by yummy" />
     <MESSAGE value="2/23/2025 by yummy" />
     <MESSAGE value="3/7/2025 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="3/7/2025 by yummy" />
+    <MESSAGE value="3/11/2025 by yummy" />
+    <MESSAGE value="3/12/2025 by yummy" />
+    <MESSAGE value="3/13/2025 by yummy" />
+    <MESSAGE value="3/14/2025 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/14/2025 by yummy" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
