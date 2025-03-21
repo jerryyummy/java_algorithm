@@ -33,7 +33,7 @@ class StepState {
 
 }
 
-public class Leetcode1291 {
+public class Leetcode1293 {
   public int shortestPath(int[][] grid, int k) {
     int rows = grid.length, cols = grid[0].length;
     int[] target = {rows - 1, cols - 1};
