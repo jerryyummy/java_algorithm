@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Letcode689 {
+public class Leetcode689 {
   public int[] maxSumOfThreeSubarrays(int[] nums, int k) {
     // Number of possible subarray starting positions
     int n = nums.length - k + 1;
