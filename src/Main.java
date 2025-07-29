@@ -33,6 +33,113 @@ public class Main {
         );
     }
 
+    public static boolean judge(char[][] matrix) {
+        int black = 0;
+        int white = 0;
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (matrix[i][j] == 'a') {
+                    black++;
+                }
+                if (matrix[i][j] == 'x') {
+                    white++;
+                }
+            }
+        }
+        if (!(black==white || black == white+1)) return false;
+
+
+        boolean[][] visited = new boolean[matrix.length][matrix[0].length];
+        int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1},{-1,-1},{1,1},{1,-1},{-1,1}};
+        boolean blackwin = false;
+        boolean whitewin = false;
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (matrix[i][j] == 'a') {
+                    for (int[] direction : directions) {
+                        int x = direction[0];
+                        int y = direction[1];
+                        if (dfs(matrix, i,j,x,y, visited, 0, 'a') ){
+                            blackwin = true;
+                        }
+                    }
+                }
+
+                if (matrix[i][j] == 'x') {
+                    for (int[] direction : directions) {
+                        int x = direction[0];
+                        int y = direction[1];
+                        if (dfs(matrix, i,j,x,y, visited, 0, 'x') ){
+                            whitewin = true;
+                        }
+                    }
+                }
+            }
+        }
+
+        // if (!blackwin && !whitewin) return false;
+        boolean flag = false;
+        if (blackwin && whitewin) return false;
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (matrix[i][j] == 'x' || matrix[i][j] == 'a') {
+                    if (check(matrix,i,j,matrix[i][j])) {
+                        flag = true;
+                    }
+                }
+            }
+        }
+        return flag;
+    }
+
+    public static boolean dfs(char[][] matrix, int row, int col, int x, int y, boolean[][] visited, int length, char color) {
+        if (length >= 5) return true;
+        visited[row][col] = true;
+        while((row+x)>=0 && (row+x)<matrix.length && (col+y)>=0 && (col+y)<matrix[0].length && !visited[row+x][col+y] && color == matrix[row+x][col+y]) {
+            if (dfs(matrix, row+x, col+y, x, y, visited, length+1, color)) return true;
+            else break;
+        }
+        visited[row][col] = false;
+        return false;
+    }
+
+    public static boolean check(char[][] matrix, int row, int col, char color) {
+        matrix[row][col] = '0';
+        boolean flag = true;
+
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (matrix[i][j] == color) {
+                    int length = 0;
+                    boolean[][] visited = new boolean[matrix.length][matrix[0].length];
+                    int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1},{-1,-1},{1,1},{1,-1},{-1,1}};
+                    for (int[] direction : directions) {
+                        int x = direction[0];
+                        int y = direction[1];
+
+                        visited[row][col] = true;
+                        while((row+x)>=0 && (row+x)<matrix.length && (col+y)>=0 && (col+y)<matrix[0].length && !visited[row+x][col+y] && color == matrix[row+x][col+y]) {
+                            if (matrix[row+x][col+y] == color && !visited[row+x][col+y]) {
+                                visited[row+x][col+y] = true;
+                                length++;
+                            }
+                            visited[row+x][col+y] = false;
+                            if (length == 5){
+                                flag = false;
+                                break;
+                            }
+                        }
+                        visited[row][col] = false;
+                    }
+
+                }
+
+            }
+        }
+        matrix[row][col] = color;
+        return flag;
+    }
+
     public void runDualTest(String testName, String text, String pattern) {
         System.out.println("=======================================");
         System.out.println(testName);
