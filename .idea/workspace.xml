@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="8/4/2025 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/baidu/GridPathMinCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baidu/MaxDataMatchRate.java" afterDir="false" />
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="8/18/2025 by yummy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baidu/MaxDataMatchRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baidu/MaxDataMatchRate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,94 +66,94 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AirportLimousine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BigNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BoxBalancer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CardPacket.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ColoringHouse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContentStrength.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataDependenceSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DisjointLine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DistinctPairs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqualizeArrays.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.GameWinner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JobExcution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Leetcode1169.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Leetcode159.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Leetcode1642.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Leetcode2050.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Leetcode224.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Leetcode2276.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Leetcode2523.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Leetcode2597.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Leetcode3165.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Leetcode362.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Leetcode503.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Leetcode560.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LocationTracker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxGoodSubArrayLength.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxNumberLessThanN.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxRewardPoints.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxSharedCategories.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxSubarray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxTransferRate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxUpgradedServers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Maximize_Total_Memory_Points.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumThroughput.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinDaysToTargetEngagement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinRangeAfterOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumInefficiency.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumSegments.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumTransaction.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumWays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberRedundancyFree.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.OpeningUpWaterways.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RadioWaves.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveInvalidParentheses.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SequantialString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpecialStringPermutation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StableSegments.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskMaster.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskSchedule.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestCaseCoverage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadCount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnequalElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/youyun/Documents/java-project/java_algorithm/src/snowflake&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.25976562&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.20603015&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AirportLimousine.executor": "Run",
+    "Application.BigNum.executor": "Run",
+    "Application.BoxBalancer.executor": "Run",
+    "Application.CardPacket.executor": "Run",
+    "Application.ColoringHouse.executor": "Run",
+    "Application.ContentStrength.executor": "Run",
+    "Application.DataDependenceSum.executor": "Run",
+    "Application.DisjointLine.executor": "Run",
+    "Application.DistinctPairs.executor": "Run",
+    "Application.EqualizeArrays.executor": "Debug",
+    "Application.GameWinner.executor": "Run",
+    "Application.JobExcution.executor": "Run",
+    "Application.Leetcode1169.executor": "Debug",
+    "Application.Leetcode159.executor": "Run",
+    "Application.Leetcode1642.executor": "Run",
+    "Application.Leetcode2050.executor": "Debug",
+    "Application.Leetcode224.executor": "Run",
+    "Application.Leetcode2276.executor": "Run",
+    "Application.Leetcode2523.executor": "Debug",
+    "Application.Leetcode2597.executor": "Debug",
+    "Application.Leetcode3165.executor": "Run",
+    "Application.Leetcode362.executor": "Debug",
+    "Application.Leetcode503.executor": "Debug",
+    "Application.Leetcode560.executor": "Debug",
+    "Application.LocationTracker.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MaxGoodSubArrayLength.executor": "Run",
+    "Application.MaxNumberLessThanN.executor": "Run",
+    "Application.MaxRewardPoints.executor": "Run",
+    "Application.MaxSharedCategories.executor": "Run",
+    "Application.MaxSubarray.executor": "Run",
+    "Application.MaxTransferRate.executor": "Run",
+    "Application.MaxUpgradedServers.executor": "Run",
+    "Application.Maximize_Total_Memory_Points.executor": "Run",
+    "Application.MaximumThroughput.executor": "Run",
+    "Application.MinDaysToTargetEngagement.executor": "Run",
+    "Application.MinRangeAfterOperations.executor": "Run",
+    "Application.MinimumInefficiency.executor": "Run",
+    "Application.MinimumSegments.executor": "Run",
+    "Application.MinimumTransaction.executor": "Run",
+    "Application.NumWays.executor": "Run",
+    "Application.NumberRedundancyFree.executor": "Debug",
+    "Application.OpeningUpWaterways.executor": "Run",
+    "Application.RadioWaves.executor": "Run",
+    "Application.RemoveInvalidParentheses.executor": "Run",
+    "Application.SequantialString.executor": "Run",
+    "Application.SpecialStringPermutation.executor": "Run",
+    "Application.StableSegments.executor": "Run",
+    "Application.TaskMaster.executor": "Run",
+    "Application.TaskSchedule.executor": "Run",
+    "Application.TestCaseCoverage.executor": "Run",
+    "Application.ThreadCount.executor": "Run",
+    "Application.UnequalElements.executor": "Run",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/youyun/Documents/java-project/java_algorithm/src/baidu",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.25976562",
+    "project.structure.side.proportion": "0.20603015",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/baidu" />
       <recent name="$PROJECT_DIR$/src/snowflake" />
       <recent name="$PROJECT_DIR$/src/meituan" />
       <recent name="$PROJECT_DIR$/src/element" />
       <recent name="$PROJECT_DIR$/src/mihoyo" />
-      <recent name="$PROJECT_DIR$/src/mathwork" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -622,7 +620,7 @@
       <workItem from="1754307665828" duration="108000" />
       <workItem from="1754323906389" duration="2375000" />
       <workItem from="1754537287834" duration="1608000" />
-      <workItem from="1755606944808" duration="824000" />
+      <workItem from="1755606944808" duration="3761000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -651,14 +649,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00245" summary="2/11/2025 by yummy">
-      <option name="closed" value="true" />
-      <created>1739430068224</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
-      <option name="project" value="LOCAL" />
-      <updated>1739430068224</updated>
     </task>
     <task id="LOCAL-00246" summary="2/11/2025 by yummy">
       <option name="closed" value="true" />
@@ -1012,7 +1002,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754325967593</updated>
     </task>
-    <option name="localTasksCounter" value="290" />
+    <task id="LOCAL-00290" summary="8/18/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1755607894305</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1755607894306</updated>
+    </task>
+    <option name="localTasksCounter" value="291" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1043,7 +1041,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2/13/2025 by yummy" />
     <MESSAGE value="2/15/2025 by yummy" />
     <MESSAGE value="2/16/2025 by yummy" />
     <MESSAGE value="2/17/2025 by yummy" />
@@ -1068,7 +1065,8 @@
     <MESSAGE value="7/26/2025 by yummy" />
     <MESSAGE value="7/28/2025 by yummy" />
     <MESSAGE value="8/4/2025 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="8/4/2025 by yummy" />
+    <MESSAGE value="8/18/2025 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="8/18/2025 by yummy" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
