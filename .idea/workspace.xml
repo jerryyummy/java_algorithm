@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="10/9/2025 by yummy">
-      <change afterPath="$PROJECT_DIR$/src/Leetcode1155.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/SimpleHTTP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +149,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.25976562&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.20603015&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
@@ -163,7 +166,7 @@
       <recent name="$PROJECT_DIR$/src/element" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleHttpServer">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="KthPersonWithBIT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="weride.KthPersonWithBIT" />
       <module name="java_algorithm" />
@@ -177,21 +180,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="weride.PermutationCycle" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="weride.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="weride.PowerNumbers" />
+    <configuration name="PermutationCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="weride.PermutationCycle" />
       <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
@@ -236,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SimpleHttpServer" />
         <item itemvalue="Application.SimpleHttp" />
         <item itemvalue="Application.PermutationCycle" />
         <item itemvalue="Application.KthPersonWithBIT" />
-        <item itemvalue="Application.PowerNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -648,7 +645,11 @@
       <workItem from="1759654909152" duration="1519000" />
       <workItem from="1759859643189" duration="1190000" />
       <workItem from="1759876992473" duration="2387000" />
-      <workItem from="1760205261433" duration="3585000" />
+      <workItem from="1760205261433" duration="3594000" />
+      <workItem from="1760426258475" duration="389000" />
+      <workItem from="1760642734945" duration="9845000" />
+      <workItem from="1760934192504" duration="5576000" />
+      <workItem from="1761011263804" duration="550000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -677,14 +678,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00255" summary="3/7/2025 by yummy">
-      <option name="closed" value="true" />
-      <created>1741427120949</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
-      <option name="project" value="LOCAL" />
-      <updated>1741427120949</updated>
     </task>
     <task id="LOCAL-00256" summary="3/11/2025 by yummy">
       <option name="closed" value="true" />
@@ -1038,7 +1031,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760207517730</updated>
     </task>
-    <option name="localTasksCounter" value="300" />
+    <task id="LOCAL-00300" summary="10/9/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1760209411165</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1760209411165</updated>
+    </task>
+    <option name="localTasksCounter" value="301" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
