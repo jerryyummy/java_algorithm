@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="10/9/2025 by yummy">
+    <list default="true" id="fe77abfa-a75d-4668-948b-b59b0d535eca" name="Changes" comment="10/21/2025 by yummy">
       <change afterPath="$PROJECT_DIR$/src/SimpleHTTP.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xhs/AREffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xhs/EcologicalAudit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xhs/HistoryContribute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/production/java_algorithm/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -650,6 +652,8 @@
       <workItem from="1760642734945" duration="9845000" />
       <workItem from="1760934192504" duration="5576000" />
       <workItem from="1761011263804" duration="550000" />
+      <workItem from="1761092822418" duration="301000" />
+      <workItem from="1761116913765" duration="9797000" />
     </task>
     <task id="LOCAL-00001" summary="August 17">
       <created>1660750051181</created>
@@ -678,14 +682,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1688455171043</updated>
-    </task>
-    <task id="LOCAL-00256" summary="3/11/2025 by yummy">
-      <option name="closed" value="true" />
-      <created>1741716598644</created>
-      <option name="number" value="00256" />
-      <option name="presentableId" value="LOCAL-00256" />
-      <option name="project" value="LOCAL" />
-      <updated>1741716598645</updated>
     </task>
     <task id="LOCAL-00257" summary="3/12/2025 by yummy">
       <option name="closed" value="true" />
@@ -1039,7 +1035,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760209411165</updated>
     </task>
-    <option name="localTasksCounter" value="301" />
+    <task id="LOCAL-00301" summary="10/21/2025 by yummy">
+      <option name="closed" value="true" />
+      <created>1761093110393</created>
+      <option name="number" value="00301" />
+      <option name="presentableId" value="LOCAL-00301" />
+      <option name="project" value="LOCAL" />
+      <updated>1761093110393</updated>
+    </task>
+    <option name="localTasksCounter" value="302" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1070,7 +1074,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2/23/2025 by yummy" />
     <MESSAGE value="3/7/2025 by yummy" />
     <MESSAGE value="3/11/2025 by yummy" />
     <MESSAGE value="3/12/2025 by yummy" />
@@ -1095,7 +1098,8 @@
     <MESSAGE value="9/28/2025 by yummy" />
     <MESSAGE value="10/7/2025 by yummy" />
     <MESSAGE value="10/9/2025 by yummy" />
-    <option name="LAST_COMMIT_MESSAGE" value="10/9/2025 by yummy" />
+    <MESSAGE value="10/21/2025 by yummy" />
+    <option name="LAST_COMMIT_MESSAGE" value="10/21/2025 by yummy" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
