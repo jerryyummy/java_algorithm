@@ -1,148 +1,123 @@
 package stripe;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class FraudDetection {
 
-    // 定义一个内部类来保存交易信息，方便后续处理
-    static class Transaction {
-        int id; // 原始列表中的索引
-        String merchantId;
-        int amount;
-        String customerId;
-        int hour;
+    public static List<String> calculateFraudScores(List<String> transactionsList,
+                                                    List<String> rulesList,
+                                                    List<String> merchantsList) {
+        // 1. 初始化商户分数和商户列表
+        Map<String, Integer> score = new HashMap<>();
+        List<String> merchantNames = new ArrayList<>();
 
-        // 对应的规则信息
-        int minTransAmount;
-        int multFactor;
-        int addFactor;
-        int penalty;
-
-        public Transaction(int id, String transStr, String ruleStr) {
-            this.id = id;
-            String[] tParts = transStr.split(",");
-            this.merchantId = tParts[0];
-            this.amount = Integer.parseInt(tParts[1]);
-            this.customerId = tParts[2];
-            this.hour = Integer.parseInt(tParts[3]);
-
-            String[] rParts = ruleStr.split(",");
-            this.minTransAmount = Integer.parseInt(rParts[0]);
-            this.multFactor = Integer.parseInt(rParts[1]);
-            this.addFactor = Integer.parseInt(rParts[2]);
-            this.penalty = Integer.parseInt(rParts[3]); // 题目第二张图显示有第4个参数
-        }
-    }
-
-    public static List<String> calculateFraudScores(List<String> transactions_list,
-                                                    List<String> rules_list,
-                                                    List<String> merchants_list) {
-
-        // 1. 初始化商家分数 Map
-        Map<String, Integer> merchantScores = new HashMap<>();
-        for (String m : merchants_list) {
-            String[] parts = m.split(",");
-            merchantScores.put(parts[0], Integer.parseInt(parts[1]));
+        for (String s : merchantsList) {
+            String[] parts = s.split(",", 2);
+            String m = parts[0].trim();
+            int baseScore = Integer.parseInt(parts[1].trim());
+            score.put(m, baseScore);
+            merchantNames.add(m);
         }
 
-        // 解析所有交易和规则，存入列表
-        List<Transaction> allTransactions = new ArrayList<>();
-        for (int i = 0; i < transactions_list.size(); i++) {
-            allTransactions.add(new Transaction(i, transactions_list.get(i), rules_list.get(i)));
+        // 2. 解析交易和规则数据
+        List<TransactionData> txs = new ArrayList<>();
+        for (int i = 0; i < transactionsList.size(); i++) {
+            String[] tParts = transactionsList.get(i).split(",");
+            String[] rParts = rulesList.get(i).split(",");
+
+            txs.add(new TransactionData(
+                    tParts[0].trim(),                     // merchant
+                    Integer.parseInt(tParts[1].trim()),   // amount
+                    tParts[2].trim(),                     // card
+                    Integer.parseInt(tParts[3].trim()),   // hour
+                    Integer.parseInt(rParts[0].trim()),   // minAmt
+                    Integer.parseInt(rParts[1].trim()),   // multiplier
+                    Integer.parseInt(rParts[2].trim()),   // addition
+                    Integer.parseInt(rParts[3].trim())    // penalty
+            ));
         }
 
-        // ==========================================
-        // STEP 1: Multiplicative Pass (乘法规则)
-        // ==========================================
-        for (Transaction t : allTransactions) {
-            if (t.amount > t.minTransAmount) {
-                int currentScore = merchantScores.get(t.merchantId);
-                merchantScores.put(t.merchantId, currentScore * t.multFactor);
+        // 3. 第一轮：乘法规则 (Multiplication)
+        // 逻辑：如果交易金额 > minAmt，基础分乘以倍率
+        for (TransactionData tx : txs) {
+            if (score.containsKey(tx.merchant) && tx.amount > tx.minAmt) {
+                score.put(tx.merchant, score.get(tx.merchant) * tx.multiplier);
             }
         }
 
-        // ==========================================
-        // STEP 2: Additive Pass (累加规则 - 用户频率)
-        // ==========================================
-        // Key: "merchantId|customerId", Value: List of additive factors seen so far
-        Map<String, List<Integer>> custHistory = new HashMap<>();
+        // 4. 第二轮：商户+卡号 累加规则 (Merchant-Card pair)
+        // 逻辑：同一商户同一卡号出现 >= 3 次，增加分值
+        Map<String, Integer> cntPair = new HashMap<>();
+        Map<String, Integer> sumAdd = new HashMap<>();
+        for (TransactionData tx : txs) {
+            if (!score.containsKey(tx.merchant)) continue;
+            String key = tx.merchant + "#" + tx.card;
+            cntPair.put(key, cntPair.getOrDefault(key, 0) + 1);
+            sumAdd.put(key, sumAdd.getOrDefault(key, 0) + tx.addition);
+        }
+        for (Map.Entry<String, Integer> entry : cntPair.entrySet()) {
+            if (entry.getValue() >= 3) {
+                String m = entry.getKey().split("#")[0];
+                score.put(m, score.getOrDefault(m, 0) + sumAdd.get(entry.getKey()));
+            }
+        }
 
-        for (Transaction t : allTransactions) {
-            String key = t.merchantId + "|" + t.customerId;
-            custHistory.putIfAbsent(key, new ArrayList<>());
-            List<Integer> history = custHistory.get(key);
-
-            // 将当前的 additive factor 加入历史记录
-            history.add(t.addFactor);
-
-            int count = history.size();
-            int currentScore = merchantScores.get(t.merchantId);
-
-            if (count == 3) {
-                // 如果正好是第3次，加上前3次所有的 factor
-                int sum = 0;
-                for (int factor : history) {
-                    sum += factor;
+        // 5. 第三轮：小时惩罚规则 (Hourly Penalty)
+        // 逻辑：同一小时内出现 >= 3 次，根据时间段正向或负向加分
+        Map<String, Integer> cntHour = new HashMap<>();
+        Map<String, Integer> sumPen = new HashMap<>();
+        Map<String, Integer> hourByKey = new HashMap<>();
+        for (TransactionData tx : txs) {
+            if (!score.containsKey(tx.merchant)) continue;
+            String key = tx.merchant + "#" + tx.card + "#" + tx.hour;
+            cntHour.put(key, cntHour.getOrDefault(key, 0) + 1);
+            sumPen.put(key, sumPen.getOrDefault(key, 0) + tx.penalty);
+            hourByKey.putIfAbsent(key, tx.hour);
+        }
+        for (Map.Entry<String, Integer> entry : cntHour.entrySet()) {
+            if (entry.getValue() >= 3) {
+                int h = hourByKey.get(entry.getKey());
+                int sign = 0;
+                if (h >= 12 && h <= 17) {
+                    sign = 1;
+                } else if ((h >= 9 && h <= 11) || (h >= 18 && h <= 21)) {
+                    sign = -1;
                 }
-                merchantScores.put(t.merchantId, currentScore + sum);
-            } else if (count > 3) {
-                // 如果是第3次以后，只加当前的 factor
-                merchantScores.put(t.merchantId, currentScore + t.addFactor);
-            }
-            // 注意：count < 3 时不执行任何操作
-        }
 
-        // ==========================================
-        // STEP 3: Penalty Pass (惩罚规则 - 小时频率)
-        // ==========================================
-        // 需要按 (Merchant, Customer, Hour) 分组
-        // Key: "merchantId|customerId|hour", Value: List of Transactions
-        Map<String, List<Transaction>> hourlyGroups = new HashMap<>();
-
-        for (Transaction t : allTransactions) {
-            String key = t.merchantId + "|" + t.customerId + "|" + t.hour;
-            hourlyGroups.putIfAbsent(key, new ArrayList<>());
-            hourlyGroups.get(key).add(t);
-        }
-
-        // 遍历每一个分组
-        for (List<Transaction> group : hourlyGroups.values()) {
-            // 只有当该组交易数量 >= 3 时才触发逻辑
-            if (group.size() >= 3) {
-                // 题目要求：该组内的每一笔交易都要计算惩罚 (Includes first, second...)
-                for (Transaction t : group) {
-                    int currentScore = merchantScores.get(t.merchantId);
-
-                    if (t.hour >= 12 && t.hour <= 17) {
-                        // 12-17点：加 Penalty
-                        merchantScores.put(t.merchantId, currentScore + t.penalty);
-                    } else if ((t.hour >= 9 && t.hour <= 11) || (t.hour >= 18 && t.hour <= 21)) {
-                        // 9-11点 或 18-21点：减 Penalty
-                        merchantScores.put(t.merchantId, currentScore - t.penalty);
-                    }
-                    // 其他时间段不做处理
+                if (sign != 0) {
+                    String m = entry.getKey().split("#")[0];
+                    score.put(m, score.getOrDefault(m, 0) + (sign * sumPen.get(entry.getKey())));
                 }
             }
         }
 
-        // ==========================================
-        // 输出格式化
-        // ==========================================
-        // 将结果转为 List 并排序
+        // 6. 排序并生成结果
+        Collections.sort(merchantNames);
         List<String> result = new ArrayList<>();
-        // 获取所有商家名字并排序
-        List<String> sortedMerchants = new ArrayList<>(merchantScores.keySet());
-        Collections.sort(sortedMerchants);
-
-        for (String mName : sortedMerchants) {
-            result.add(mName + "," + merchantScores.get(mName));
+        for (String m : merchantNames) {
+            result.add(m + "," + score.getOrDefault(m, 0));
         }
 
         return result;
     }
 
-    // 简单的 Main 测试 (基于题目图片中的 Example Input)
+    private static class TransactionData {
+        String merchant, card;
+        int amount, hour, minAmt, multiplier, addition, penalty;
+
+        TransactionData(String merchant, int amount, String card, int hour,
+                        int minAmt, int multiplier, int addition, int penalty) {
+            this.merchant = merchant;
+            this.amount = amount;
+            this.card = card;
+            this.hour = hour;
+            this.minAmt = minAmt;
+            this.multiplier = multiplier;
+            this.addition = addition;
+            this.penalty = penalty;
+        }
+    }
+
     public static void main(String[] args) {
         List<String> transactions = Arrays.asList(
                 "merchant1,1200,customer1,10",
@@ -170,6 +145,5 @@ public class FraudDetection {
         List<String> output = calculateFraudScores(transactions, rules, merchants);
         System.out.println(output);
         // 预期输出: [merchant1,50, merchant2,60]
-        // merchant2计算: Base 20 -> Trans 2400>2300 (mult 3) -> 20*3=60. Additive count=1(no). Hour count=1(no). Final 60.
     }
 }
